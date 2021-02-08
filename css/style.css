@@ -11,6 +11,7 @@ body{
 nav{
     background: rgba(0, 0, 0, 0.5);
     transition: .3s;
+    padding: 1px;
 }
 
 nav  .navbar-brand img{
@@ -292,6 +293,7 @@ nav .navbar-toggler .hidden{
     font-weight: 700; 
 }
 
+
 .portfolio .box  .info .link{
     color: #fff;
     background: linear-gradient(90deg, rgba(144,86,0,1) 0%, rgba(149,115,33,1) 69%);
@@ -366,21 +368,20 @@ nav .navbar-toggler .hidden{
 
 .contact .logo img{
     height: 170px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .contact h1 {
     font-size:50px;
     color: #D5A120;
     font-weight: 600;
+    margin-bottom: 0%;
 }
 
-.contact  ul{
-    font-size: 35px;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-weight: 500;
-    line-height: 100%;
+.contact  .service{
+    font-size: 25px;  
+    line-height: 50%;
+    font-weight: 400; 
 }
 
 .contact  span{
@@ -388,23 +389,29 @@ nav .navbar-toggler .hidden{
 }
 
 .contact i{
-    font-size: 50px;
+    font-size: 30px;
     color: #D5A120;
 } 
-.contact .mail,
-.contact .phone{
-    line-height: 0%;
+
+.contact .mail{
+    font-size: 30px;
 } 
 
 .contact p{
     font-size: 17px;
 }
 
-@media(max-width:767px){
-    .contact {
-        text-align: center;
-    }
+.contact .scoial-media a i{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #212121 ;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #D5A120;
 }
+
+.contact .scoial-media a i:hover{
+    background-color: #cfa843;
 
 .contact textarea,
 .contact input{

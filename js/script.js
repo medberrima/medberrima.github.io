@@ -30,15 +30,19 @@
     $(window).scroll(function(){
 
         //scroll navbar 
-        if ($(window).scrollTop() > 80 ) {
-            $(".navbar").css('padding', "0px 10px ");
-        }else{
-            $(".navbar").css('padding', "20px 10px");
+        if($(window).scrollTop() >= 200){
+            $('nav').css({
+                'padding' : '0.5rem 1rem'
+            })
         }
-
+        else{
+            $('nav').css({
+                'padding' : '1rem'
+            })
+        }
         // skills bar 
         const progressBars= document.querySelectorAll('.progress-bar') ;
-        if($(window).scrollTop() >=1300){
+        if($(window).scrollTop() >= ($('.skills').offset().top - 200) ){
             progressBars.forEach((progress,index)=>{
                 const target=progress.getAttribute('data-target')
                 progress.style.width =target
@@ -47,7 +51,7 @@
         }
 
         //button up
-        if($(window).scrollTop() >=800){
+        if($(window).scrollTop() >= ($('.services').offset().top - 200)){
             $('.up').fadeIn(800)
         }else{
             $('.up').fadeOut(800)
