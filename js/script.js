@@ -71,6 +71,7 @@
 
 
     // portfolio  view more
+    $(".portfolio .more").css('display', "none");
     $('.view').click(function(){
         if($(".portfolio .more").css('display')  == "none"){
             $(".portfolio .more").css('display', "inline");

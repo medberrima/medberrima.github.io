@@ -264,6 +264,12 @@ nav .navbar-toggler .hidden{
     background-color: #D5A120;
 }
 
+.skills .icon img{
+    height: 80px;
+    width: 80px;
+    margin-right: 100px;
+}
+
 /*End skills*/
 
 /* start portfolio  */
@@ -375,9 +381,9 @@ nav .navbar-toggler .hidden{
 
 }
 
-.portfolio .more{
+/* .portfolio .more{
     display: none;
-}
+} */
 
 
 .portfolio .view{
