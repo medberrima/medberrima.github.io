@@ -84,6 +84,7 @@ nav .navbar-toggler .hidden{
 .header{
     position: relative;
     height: 720px;
+    width: 100%;
 }
 
 .header .carousel-item,
@@ -108,6 +109,8 @@ nav .navbar-toggler .hidden{
     top: 15%;
     left: 2%;
     color: #D5A120;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -186,14 +189,6 @@ nav .navbar-toggler .hidden{
 }
 /*End header*/
 
-/* .services .myservice {
-    height: 500px;
-    background-image: url('../images/services.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    color: #fefefe;
-    background-blend-mode: luminosity;
-} */
 
 /*Start services*/
 
@@ -425,7 +420,6 @@ form textarea{
 
 .contact .logo img{
     height: 170px;
-    /* margin-left: 100px; */
 }
 
 .contact h1 {
@@ -547,7 +541,7 @@ text-decoration: none !important;
     }
 
     .header .info .title{
-        margin-left: 100px;
+        margin-left: 80px;
         margin-top: 80px;
     }
 
@@ -566,34 +560,42 @@ text-decoration: none !important;
     }
 }
 @media(max-width:767px){
-
+    .header {
+        width: 100% !;
+    }
     .header .info{
-        width: 85%;
-        padding: 0 25px;
+        width: 70%;
+        padding: 0 200px;
+    }
+
+    .header .info .social-media{
+        display: none;
     }
 
     .header .info .title{
-        margin-left: 55px;
-        margin-top: -350px;
+        margin-left: -130px;
+        width: 500px;
     }
-
+    
     .header .title h2 {
-        font-size: 21px;
-        margin-bottom: 25px ;
+        font-size: 30px;
+        margin-left: -50px;
     }
-
+    
     .header .title p {
-        font-size: 13px;
-        margin-top: -30px;
-        margin-bottom: 10px;
+        font-size: 15px;
+        margin-left: -300px;
+        margin-top: -10px;
+        text-align: center;
     }
-
+    
     .header .title .cv{
-        font-size: 10px ;
+        margin-left: 50px;
+        font-size: 12px ;
     }
 
     .header .title .cv i{
-        font-size: 10px ;
+        font-size: 12px ;
     }
 
 
