@@ -18,13 +18,7 @@
     })
 
 
-    //mix it up
-    var mixer = mixitup('.gallary');
 
-    //add class active portfolio menu
-    $('.menu ul li').click(function(){
-        $(this).addClass('active').siblings().removeClass('active')
-    })
 
     
     prevScrollpos = window.pageYOffset;
@@ -67,6 +61,16 @@
     //venobox
     $('.venobox').venobox();
 
+
+    //mix it up
+    var mixer = mixitup('.gallary');
+
+    //add class active portfolio menu
+    $('.menu ul li').click(function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+
+    
 
     // portfolio  view more
     $(".portfolio .more").css('display', "none");
