@@ -27,19 +27,19 @@
     })
 
     
+    prevScrollpos = window.pageYOffset;
     $(window).scroll(function(){
 
         //scroll navbar 
-        if($(window).scrollTop() >= 200){
-            $('nav').css({
-                'padding' : '0.5rem 1rem'
-            })
+        var currentScrollPos = window.pageYOffset;
+        if(prevScrollpos > currentScrollPos){
+            $('nav').css({'top' : '0'})
+        }else{
+            $('nav').css({'top' : '-100px'})
         }
-        else{
-            $('nav').css({
-                'padding' : '1rem'
-            })
-        }
+        prevScrollpos = currentScrollPos;
+
+
         // skills bar 
         const progressBars= document.querySelectorAll('.progress-bar') ;
         if($(window).scrollTop() >= ($('.skills').offset().top - 200) ){
@@ -53,9 +53,7 @@
         //button up
         if($(window).scrollTop() >= ($('.services').offset().top - 200)){
             $('.up').fadeIn(800)
-        }else{
-            $('.up').fadeOut(800)
-        }
+        }else{$('.up').fadeOut(800)}
     })
 
     //click button up
@@ -80,4 +78,19 @@
             $(".portfolio .more").css('display', "none");
             $(".portfolio .view").html('view more');
         }
+    })
+
+
+    //switch between style 
+    $('.fa-moon').on('click', function () {
+        
+        var link = $('link[data-color="switch"]');
+        
+        
+        if (link.attr('href') == 'css/light.css') {
+            link.attr('href', 'css/dark.css')
+        } else {
+            link.attr('href', 'css/light.css')
+        }
+
     })
