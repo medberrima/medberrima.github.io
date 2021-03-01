@@ -3,7 +3,7 @@
 body{
     font-family: 'Lato', sans-serif;    
     background-color: #212121;
-    color: #c3c3c3;
+    color: #fff;
     outline: none !important;
 }
 
@@ -24,7 +24,7 @@ nav ul li:not(:last-of-type){
 
 nav ul li a{
     position: relative;
-    color: #c3c3c3 ;
+    color: #fff ;
     text-transform: uppercase;
     font-size: 15px;
     padding: 12px ;
@@ -37,13 +37,13 @@ nav li a::after {
     left: 10px;
     height: 2px;
     width: 0px;
-    background-color: #D5A120 ;
+    background-color: rgb(255,166,46) ;
     transition: .3s;
 }
 
 nav ul li .active,
 nav ul a:hover{
-    color:#D5A120  ;
+    color:rgb(255,166,46)  ;
     transition: .3s;
 }
 
@@ -65,7 +65,7 @@ nav .navbar-toggler span{
     display: block;
     width: 30px;
     height: 3px;
-    background: #c3c3c3;
+    background: #fff;
     transition: .3s;
 }
 
@@ -116,7 +116,7 @@ nav .navbar-toggler .hidden{
     position: absolute;
     top: 15%;
     left: 2%;
-    color: #D5A120;
+    color: rgb(255,166,46);
     width: 100%;
     height: 100%;
 
@@ -142,23 +142,23 @@ nav .navbar-toggler .hidden{
 }
 
 .header .info span {
-    color: #c3c3c3;
+    color: #fff;
 }
 
 .header .info .cv{
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    border-color: #D5A120;
-    color: #D5A120 ;
+    border-color: rgb(255,166,46);
+    color: rgb(255,166,46) ;
     padding: 8px 8px;
     cursor: pointer;
     margin-left: 100px;
 }
 
 .header .cv:hover{
-    background-color: #D5A120;
-    color: #c3c3c3;
+    background-color: rgb(255,166,46);
+    color: #fff;
     transition: .5s;
 }
 
@@ -191,7 +191,7 @@ nav .navbar-toggler .hidden{
 }
 
 .header .social-media i:hover{
-    color:#D5A120;
+    color:rgb(255,166,46);
 }
 
 /* end  social media bar*/
@@ -205,11 +205,8 @@ nav .navbar-toggler .hidden{
 .services .serv {
     padding: 20px 15px;
     cursor: pointer;
-    color: #c3c3c3;
-
+    color: #fff;
 }
-
-
 
 .services .serv .detail h3 {
     font-size: 18px;
@@ -226,7 +223,7 @@ nav .navbar-toggler .hidden{
 }
 
 .services .serv:hover {
-    color: #D5A120; 
+    color: rgb(255,166,46); 
     transition: .3s;
 }
 
@@ -237,7 +234,7 @@ nav .navbar-toggler .hidden{
 .skills .title {
     font-size: 50px;
     font-weight: 600;
-    color: #D5A120;
+    color: rgb(255,166,46);
     margin-bottom: 40px;
 }
 
@@ -263,7 +260,7 @@ nav .navbar-toggler .hidden{
 .progress .progress-bar {
     height: 7px;
     width: 0%;
-    background-color: #D5A120;
+    background-color: rgb(255,166,46);
     transition: all 5s;
 }
 
@@ -271,7 +268,7 @@ nav .navbar-toggler .hidden{
     margin-left: 50%;
     height: 100%;
     width: 2px;
-    background-color: #D5A120;
+    background-color: rgb(255,166,46);
 }
 
 /* .skills .icon img{
@@ -289,7 +286,7 @@ nav .navbar-toggler .hidden{
     padding: 6px 20px;
     cursor: pointer;
     margin-left: 30px ;
-    color: #c3c3c3; 
+    color: #fff; 
     border-radius: 60px;
     text-transform: uppercase;
     display: inline-block;
@@ -297,8 +294,8 @@ nav .navbar-toggler .hidden{
 
 .portfolio  ul .active,
 .portfolio  ul li:hover{
-    background-color: #D5A120;
-    color: #c3c3c3;
+    background-color: rgb(255,166,46);
+    color: #fff;
     transition: .5s;
 } 
 
@@ -325,7 +322,7 @@ nav .navbar-toggler .hidden{
     width: 100%;
     transform: translateY(250px); 
     transition: 1s;
-    color: #c3c3c3;
+    color: #fff;
 }
 
 .portfolio .box:hover .info{
@@ -350,7 +347,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio .box  .info .link a{
     color: #fff;
-    background: linear-gradient(90deg, rgba(144,86,0,1) 0%, rgba(149,115,33,1) 69%);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
     padding: 10px 10px;
     font-size: 25px;
     text-transform: capitalize;
@@ -370,7 +367,7 @@ nav .navbar-toggler .hidden{
     font-size: 20px;
     padding-top: 5px;
     font-weight: 600;
-    color: #c3c3c3;
+    color: #fff;
 }
 
 .portfolio .title span{
@@ -378,7 +375,7 @@ nav .navbar-toggler .hidden{
     margin: 0 auto;
     width: 20px;
     height: 3px;
-    background-color: #D5A120;
+    background-color: rgb(255,166,46);
     
 } 
 
@@ -403,7 +400,7 @@ nav .navbar-toggler .hidden{
     padding: 6px 20px;
     cursor: pointer;
     margin-top: 30px ;
-    color: #c3c3c3; 
+    color: #fff; 
     border-radius: 10px;
     text-transform: uppercase;
     outline: none ;
@@ -411,7 +408,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view:hover{
-    background-color:#D5A120 ;
+    background-color:rgb(255,166,46) ;
     transition: .5s;
 }
 
@@ -427,14 +424,14 @@ nav .navbar-toggler .hidden{
     border: none !important;
 	font-size: 22px !important;
 	margin-top: 30px;
-	color: #D5A120 !important;
+	color: rgb(255,166,46) !important;
 	width: 100%;
-	border-bottom: 1px solid #D5A120!important; 
+	border-bottom: 1px solid rgb(255,166,46)!important; 
     outline: none;
 }
 
 form .form-control::placeholder{
-    color: #D5A120;
+    color: rgb(255,166,46);
 }
 
 form textarea{
@@ -448,7 +445,7 @@ form textarea{
 
 .contact h1 {
     font-size:45px;
-    color: #D5A120;
+    color: rgb(255,166,46);
     font-weight: 600;
     margin-bottom: 0%;
 }
@@ -460,7 +457,7 @@ form textarea{
 }
 
 .contact p span{
-    color: #D5A120;
+    color: rgb(255,166,46);
 }
 
 
@@ -470,11 +467,11 @@ form textarea{
     color: #212121 ;
     border-radius: 55%;
     padding: 10px ;
-    background-color: #D5A120;
+    background-color: rgb(255,166,46);
 }
 
 .contact .scoial-media a i:hover{
-    background: linear-gradient(90deg, rgb(223, 159, 64) 0%, rgb(185, 135, 18) 69%);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
 }
 
 .contact .mail{
@@ -483,7 +480,7 @@ form textarea{
 } 
 
 .contact .mail a{ 
-    color: #c3c3c3;
+    color: #fff;
 } 
 
 .contact .mail i{
@@ -491,7 +488,7 @@ form textarea{
 } 
 
 .contact .mail a:hover{
-    color: #D5A120;
+    color: rgb(255,166,46);
     transition: .5s;
 } 
 
@@ -515,14 +512,17 @@ footer p{
     width: 40px;
     height: 40px;
     border-radius: 10%;
-    background: #D5A120;
+    background: rgb(255,166,46);
     border: none;
-    color: #c3c3c3;
+    color: #fff;
     cursor: pointer;
     outline: none !important;
     display: none;
 }
-
+  
+.up:hover{
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+}
 
 
 
@@ -535,7 +535,7 @@ footer p{
 }
 
 .heading h2{
-    color: #c3c3c3;
+    color: #fff;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
@@ -545,7 +545,7 @@ footer p{
     margin: 0 auto;
     width: 80px;
     height: 3px;
-    background-color: #c3c3c3;
+    background-color: #fff;
 }
 ul{
     list-style: none;
