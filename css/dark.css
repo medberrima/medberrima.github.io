@@ -15,7 +15,7 @@ nav{
 }
 
 nav  .navbar-brand img{
-    height: 50px;
+    height: 100px;
 }
 
 nav ul li:not(:last-of-type){
@@ -37,13 +37,15 @@ nav li a::after {
     left: 10px;
     height: 2px;
     width: 0px;
-    background-color: rgb(255,166,46) ;
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
     transition: .3s;
 }
 
 nav ul li .active,
 nav ul a:hover{
-    color:rgb(255,166,46)  ;
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 120%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: .3s;
 }
 
@@ -55,6 +57,14 @@ nav li .mode{
     font-size: 20px;
     margin-top: 8px;
     cursor: pointer;
+    transition: .5s;
+}
+
+nav li .mode:hover{
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 nav .navbar-toggler{
@@ -116,7 +126,8 @@ nav .navbar-toggler .hidden{
     position: absolute;
     top: 15%;
     left: 2%;
-    color: rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 10%, rgba(234,77,44,1) 90%);
+    -webkit-background-clip: text;
     width: 100%;
     height: 100%;
 
@@ -126,11 +137,15 @@ nav .navbar-toggler .hidden{
 .header .info .title{
     margin-left: 120px;
     margin-top: 100px;
+
 }
 
 .header .info h2{
     font-size: 40px;
     font-weight: 550; 
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header .info p{
@@ -157,7 +172,7 @@ nav .navbar-toggler .hidden{
 }
 
 .header .cv:hover{
-    background-color: rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
     color: #fff;
     transition: .5s;
 }
@@ -191,7 +206,9 @@ nav .navbar-toggler .hidden{
 }
 
 .header .social-media i:hover{
-    color:rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* end  social media bar*/
@@ -223,7 +240,9 @@ nav .navbar-toggler .hidden{
 }
 
 .services .serv:hover {
-    color: rgb(255,166,46); 
+    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: .3s;
 }
 
@@ -234,7 +253,9 @@ nav .navbar-toggler .hidden{
 .skills .title {
     font-size: 50px;
     font-weight: 600;
-    color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
 }
 
@@ -260,7 +281,7 @@ nav .navbar-toggler .hidden{
 .progress .progress-bar {
     height: 7px;
     width: 0%;
-    background-color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 250%); 
     transition: all 5s;
 }
 
@@ -268,7 +289,8 @@ nav .navbar-toggler .hidden{
     margin-left: 50%;
     height: 100%;
     width: 2px;
-    background-color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
+
 }
 
 /* .skills .icon img{
@@ -294,7 +316,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio  ul .active,
 .portfolio  ul li:hover{
-    background-color: rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
     color: #fff;
     transition: .5s;
 } 
@@ -351,6 +373,7 @@ nav .navbar-toggler .hidden{
     padding: 10px 10px;
     font-size: 25px;
     text-transform: capitalize;
+    border-radius: 5%;
 
 }
 
@@ -375,7 +398,7 @@ nav .navbar-toggler .hidden{
     margin: 0 auto;
     width: 20px;
     height: 3px;
-    background-color: rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
     
 } 
 
@@ -408,7 +431,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view:hover{
-    background-color:rgb(255,166,46) ;
+    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
     transition: .5s;
 }
 
@@ -420,18 +443,22 @@ nav .navbar-toggler .hidden{
 
 .contact textarea,
 .contact input{
-    background: transparent !important;
-    border: none !important;
+    /* background: transparent !important; */
+    border: none !important; 
 	font-size: 22px !important;
 	margin-top: 30px;
-	color: rgb(255,166,46) !important;
-	width: 100%;
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 50%);
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	/* width: 100%; */
 	border-bottom: 1px solid rgb(255,166,46)!important; 
-    outline: none;
+    /* outline: none; */ 
 }
 
 form .form-control::placeholder{
-    color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 form textarea{
@@ -445,7 +472,9 @@ form textarea{
 
 .contact h1 {
     font-size:45px;
-    color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 600;
     margin-bottom: 0%;
 }
@@ -457,7 +486,9 @@ form textarea{
 }
 
 .contact p span{
-    color: rgb(255,166,46);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 300%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -467,11 +498,11 @@ form textarea{
     color: #212121 ;
     border-radius: 55%;
     padding: 10px ;
-    background-color: rgb(255,166,46);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
 }
 
 .contact .scoial-media a i:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+    background: linear-gradient(145deg,rgba(234,77,44,1) 10%, rgba(255,166,46,1) 0%);
 }
 
 .contact .mail{
@@ -512,16 +543,19 @@ footer p{
     width: 40px;
     height: 40px;
     border-radius: 10%;
-    background: rgb(255,166,46);
+    
     border: none;
     color: #fff;
     cursor: pointer;
     outline: none !important;
     display: none;
-}
-  
-.up:hover{
     background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+
+}
+
+.up:hover{
+    background: linear-gradient(145deg, rgba(234,77,44,1) 100%, rgba(255,166,46,1) 100%);
+
 }
 
 

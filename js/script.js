@@ -29,7 +29,7 @@
         if(prevScrollpos > currentScrollPos){
             $('nav').css({'top' : '0'})
         }else{
-            $('nav').css({'top' : '-100px'})
+            $('nav').css({'top' : '-125px'})
         }
         prevScrollpos = currentScrollPos;
 
