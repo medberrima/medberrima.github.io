@@ -7,6 +7,7 @@ body{
 }
 
 
+
 /* Start Navbar */
 .navbar {
     background: rgba(0, 0, 0, 0.5);
@@ -159,7 +160,7 @@ line-height: 1.5
 .slider .info .cv:hover{
     background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
     color: #fff;
-    transition: .5s;
+    transition: .3s;
 }
 
 @media (max-width: 992px) {
@@ -508,20 +509,22 @@ line-height: 1.5
 /*Start contact*/
 .contact textarea,
 .contact input{
-    border: none !important; 
-	font-size: 22px !important;
+    border: none;
+	font-size: 22px ;
 	margin-top: 30px;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 50%);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 	border-bottom: 1px solid rgb(255,166,46)!important; 
-
 }
 
+
+
 form .form-control::placeholder{
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 50%);
+    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
 }
 
 form textarea{
@@ -667,7 +670,7 @@ ul{
 }
 
 a{
-text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 
