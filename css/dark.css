@@ -177,6 +177,10 @@ line-height: 1.5
         font-size: 29px;
     }
 
+    .slider .info p span{ 
+        font-size: 29px;
+    }
+
     .slider .info .cv{
         font-size: 17px;
     }
@@ -197,6 +201,10 @@ line-height: 1.5
     }
 
     .slider .info p{ 
+        font-size: 17px;
+    }
+
+    .slider .info p span{ 
         font-size: 17px;
     }
 
