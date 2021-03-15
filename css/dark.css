@@ -15,7 +15,7 @@ nav{
 }
 
 nav  .navbar-brand img{
-    height: 100px;
+    height: 50px;
 }
 
 nav ul li:not(:last-of-type){
@@ -43,10 +43,9 @@ nav li a::after {
 
 nav ul li .active,
 nav ul a:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 120%);
+    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: .3s;
 }
 
 nav li a:hover:after{
@@ -57,11 +56,11 @@ nav li .mode{
     font-size: 20px;
     margin-top: 8px;
     cursor: pointer;
-    transition: .5s;
+    
 }
 
 nav li .mode:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -126,7 +125,7 @@ nav .navbar-toggler .hidden{
     position: absolute;
     top: 15%;
     left: 2%;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 10%, rgba(234,77,44,1) 90%);
+    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     width: 100%;
     height: 100%;
@@ -143,7 +142,7 @@ nav .navbar-toggler .hidden{
 .header .info h2{
     font-size: 40px;
     font-weight: 550; 
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 40%);
+    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -165,7 +164,8 @@ nav .navbar-toggler .hidden{
     border-width: 1px;
     border-radius: 5px;
     border-color: rgb(255,166,46);
-    color: rgb(255,166,46) ;
+    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
+    color: #fff ;
     padding: 8px 8px;
     cursor: pointer;
     margin-left: 100px;
@@ -240,7 +240,7 @@ nav .navbar-toggler .hidden{
 }
 
 .services .serv:hover {
-    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%);
+    background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s;
@@ -253,7 +253,7 @@ nav .navbar-toggler .hidden{
 .skills .title {
     font-size: 50px;
     font-weight: 600;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%);
+    background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 40px;
@@ -440,19 +440,16 @@ nav .navbar-toggler .hidden{
 
 
 /*Start contact*/
-
 .contact textarea,
 .contact input{
-    /* background: transparent !important; */
     border: none !important; 
 	font-size: 22px !important;
 	margin-top: 30px;
     background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 50%);
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
-	/* width: 100%; */
 	border-bottom: 1px solid rgb(255,166,46)!important; 
-    /* outline: none; */ 
+
 }
 
 form .form-control::placeholder{
@@ -498,11 +495,11 @@ form textarea{
     color: #212121 ;
     border-radius: 55%;
     padding: 10px ;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
 }
 
 .contact .scoial-media a i:hover{
-    background: linear-gradient(145deg,rgba(234,77,44,1) 10%, rgba(255,166,46,1) 0%);
+    background: linear-gradient(145deg, rgb(234, 130, 44) 100%, rgba(255,166,46,1) 100%);
 }
 
 .contact .mail{
@@ -523,6 +520,22 @@ form textarea{
     transition: .5s;
 } 
 
+.contact .submit {
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
+    color: #fff;
+    border: none ;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    margin-top: 30px ;
+    color: #fff; 
+    border-radius: 10px;
+    outline: none ;
+}
+
+.contact .submit:hover {
+    background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+
+}
 
 
 /*End contact*/
@@ -554,7 +567,7 @@ footer p{
 }
 
 .up:hover{
-    background: linear-gradient(145deg, rgba(234,77,44,1) 100%, rgba(255,166,46,1) 100%);
+    background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
 
 }
 
