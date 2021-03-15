@@ -6,6 +6,12 @@
     })
 
 
+    
+    // Adjust Slider Height
+    var winH    = $(window).height();
+    $('.slider, .carousel-item').height(winH );
+
+
 
 
     //smooth scroll
@@ -27,9 +33,9 @@
         //scroll navbar 
         var currentScrollPos = window.pageYOffset;
         if(prevScrollpos > currentScrollPos){
-            $('nav').css({'top' : '0'})
+            $('nav').css({'top' : '0','transition': '.3s'})
         }else{
-            $('nav').css({'top' : '-125px'})
+            $('nav').css({'top' : '-125px' ,'transition': '.3s'})
         }
         prevScrollpos = currentScrollPos;
 
