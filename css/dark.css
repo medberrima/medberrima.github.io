@@ -646,7 +646,6 @@ footer p{
 .scoial-media-menu .menu-item:hover{
     transform: translateX(-90px);
     cursor: pointer;
-    background-color: green;
     transition: 1s;
 }
 
@@ -660,8 +659,12 @@ footer p{
     padding: 10px;
 }
 
-.scoial-media-menu .menu-item .text-item{
+.scoial-media-menu .menu-item a .text-item{
     display: inline;
+}
+
+.scoial-media-menu .menu-item a .text-item{
+    color: #fff;
 }
 
 
