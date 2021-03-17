@@ -262,14 +262,9 @@ nav .navbar-toggler .hidden{
 
 .services .serv {
     padding: 20px 15px;
-    cursor: pointer;
     color: #fff;
 }
 
-.services .serv .detail h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
 
 .services .serv i{
     font-size: 35px;
@@ -277,14 +272,36 @@ nav .navbar-toggler .hidden{
 }
 
 .services .serv p{
-    font-size: 14px;
+    font-size: 18px;
 }
 
-.services .serv:hover {
-    background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .3s;
+
+.services .serv  h3{
+    margin-top: 15px;
+    background: url("../images/brush.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 50px;
+}
+
+@media(max-width:767px){
+
+    .services .serv i{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .services .serv p{
+        font-size: 10px;
+    }
+    
+    .services .serv:hover {
+        background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: .3s;
+    }
+
 }
 
 /*End services*/
@@ -627,7 +644,7 @@ footer p{
 /* social media */
 .scoial-media-menu{
     position: fixed;
-    right: -95px;
+    right: -110px;
     top: 40%;
     z-index: 99;
     width: 150px;
@@ -644,7 +661,7 @@ footer p{
 }
 
 .scoial-media-menu .menu-item:hover{
-    transform: translateX(-90px);
+    transform: translateX(-95px);
     cursor: pointer;
     transition: 1s;
 }
@@ -654,7 +671,7 @@ footer p{
 }
 
 .scoial-media-menu .menu-item a i{
-    font-size: 30px ;
+    font-size: 15px ;
     color: #fff;
     padding: 10px;
 }
