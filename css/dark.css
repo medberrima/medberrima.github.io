@@ -4,6 +4,7 @@ body{
     font-family: 'Lato', sans-serif;    
     background-color: #212121;
     color: #fff;
+    
 }
 
 
@@ -52,17 +53,19 @@ nav li a:hover:after{
 }
 
 nav li .mode{
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 8px;
     cursor: pointer;
-
-}
-
-nav li .mode:hover{
     background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+nav li .mode:hover{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .1s;
 }
 
 nav .navbar-toggler{
@@ -152,8 +155,24 @@ nav .navbar-toggler .hidden{
     cursor: pointer;
     margin-left: 150px;
 }
+/* 
+.slider .info .contact{
+    border:rgb(234, 130, 44) 2px  solid ;
+    border-radius: 5px;
+    font-size: 20px;
+    background: 145deg,rgba(255, 164, 46, 0) ;
+    color: #fff ;
+    padding: 8px 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
 
-.slider .info.info i{
+.slider .info .contact i{
+    font-size: 20px;
+    margin-right: 5px;
+} */
+
+.slider .info i{
     font-size: 15px;
 }
 
@@ -161,6 +180,42 @@ nav .navbar-toggler .hidden{
     background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
     color: #fff;
     transition: .3s;
+}
+
+.slider .carousel-inner .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+.slider .carousel-item {
+    background-size: cover;
+}
+
+.slider .carousel-one {
+    background-image: url('../images/slider-2-min.jpg')
+}
+
+.slider .carousel-two {
+    background-image: url('../images/slider-1-min.jpg')
+}
+
+.slider .carousel-three {
+    background-image: url('../images/slider-3-min.jpg')
+}
+
+.slider .carousel-four {
+    background-image: url('../images/slider-4-min.jpg')
+}
+
+.slider .carousel-indicators li {
+    height: 8px;
+    cursor: pointer;
+    
 }
 
 @media (max-width: 992px) {
@@ -219,43 +274,8 @@ nav .navbar-toggler .hidden{
 }
 
 
-.slider .carousel-inner .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, .6);
-    z-index: 2;
-}
-
-.slider .carousel-item {
-    background-size: cover;
-}
-
-.slider .carousel-one {
-    background-image: url('../images/slider-1.jpg')
-}
-
-.slider .carousel-two {
-    background-image: url('../images/slider-2.jpg')
-}
-
-.slider .carousel-three {
-    background-image: url('../images/slider-3.jpg')
-}
-
-.slider .carousel-four {
-    background-image: url('../images/slider-4.jpg')
-}
-
-.slider .carousel-indicators li {
-    height: 8px;
-    cursor: pointer;
-}
 
 /* End Slider */
-
 
 
 /*Start services*/
@@ -265,42 +285,36 @@ nav .navbar-toggler .hidden{
     color: #fff;
 }
 
-
 .services .serv i{
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.services .serv p{
-    font-size: 18px;
-}
-
-
 .services .serv  h3{
     margin-top: 15px;
+    height: 50px;
     background: url("../images/brush.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    height: 50px;
+    cursor: pointer;
+    font-size: 27px;
 }
 
-@media(max-width:767px){
 
+@media(max-width:767px){
+    
     .services .serv i{
         font-size: 25px;
         margin-bottom: 10px;
     }
     
-    .services .serv p{
-        font-size: 10px;
+    .services .serv h3{
+        background-position: center center;
+        font-size: 18px;
+        height: 30px;
     }
     
-    .services .serv:hover {
-        background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: .3s;
-    }
+
 
 }
 
@@ -639,8 +653,6 @@ footer p{
 
 /* end button up */
 
-
-
 /* social media */
 .scoial-media-menu{
     position: fixed;
@@ -650,7 +662,6 @@ footer p{
     width: 150px;
     flex-direction: column;
     padding: 0 5px;
-    transition: all 0.5s ease;
     font-size: 20px;
 }
 
@@ -683,14 +694,7 @@ footer p{
 .scoial-media-menu .menu-item a .text-item{
     color: #fff;
 }
-
-
-
-/* end social media up */
-
-
-
-
+/* end social media  */
 
 /*Start framework*/
 .heading{

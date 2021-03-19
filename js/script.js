@@ -42,7 +42,7 @@
 
         // skills bar 
         const progressBars= document.querySelectorAll('.progress-bar') ;
-        if($(window).scrollTop() >= ($('.skills').offset().top - 200) ){
+        if($(window).scrollTop() >= ($('.skills').offset().top - 100) ){
             progressBars.forEach((progress,index)=>{
                 const target=progress.getAttribute('data-target')
                 progress.style.width =target
@@ -92,15 +92,15 @@
 
 
     //switch between style 
-    $('.fa-moon').on('click', function () {
-        
+    $('.nav-mode').on('click', function () {       
         var link = $('link[data-color="switch"]');
         
-        
         if (link.attr('href') == 'css/light.css') {
-            link.attr('href', 'css/dark.css')
+            link.attr('href', 'css/dark.css') 
+            $(".nav-mode .fas").removeClass('fa-sun').addClass('fa-moon');           
         } else {
-            link.attr('href', 'css/light.css')
+            link.attr('href', 'css/light.css') 
+            $(".nav-mode .fas").removeClass('fa-moon').addClass('fa-sun');           
         }
 
     })
