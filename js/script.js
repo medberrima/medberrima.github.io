@@ -97,10 +97,10 @@
         
         if (link.attr('href') == 'css/light.css') {
             link.attr('href', 'css/dark.css') 
-            $(".nav-mode .fas").removeClass('fa-sun').addClass('fa-moon');           
+            $(".nav-mode .fas").removeClass('fa-moon').addClass('fa-sun');           
         } else {
             link.attr('href', 'css/light.css') 
-            $(".nav-mode .fas").removeClass('fa-moon').addClass('fa-sun');           
+            $(".nav-mode .fas").removeClass('fa-sun').addClass('fa-moon');           
         }
 
     })

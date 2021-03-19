@@ -1,99 +1,94 @@
-
-
 body{
-    font-family: 'Lato', sans-serif;    
-    background-color: #212121;
-    color: #fff;
-    
+  font-family: 'Lato', sans-serif;    
+  background-color: #212121;
+  color: #fff;
 }
-
-
 
 /* Start Navbar */
 .navbar {
-    background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand img {
-    height: 50px;   
+  height: 50px;   
 }
 
 nav ul li:not(:last-of-type){
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 nav ul li a{
-    position: relative;
-    color: #fff !important;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding: 12px ;
+  position: relative;
+  color: #fff ;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 12px ;
 }
 
 nav li a::after {
-    position: absolute;
-    content: " ";
-    top: 30px;
-    left: 10px;
-    height: 2px;
-    width: 0px;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 145, 44) 100%);
-    transition: .3s;
+  position: absolute;
+  content: " ";
+  top: 30px;
+  left: 10px;
+  height: 2px;
+  width: 0px;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 145, 44) 100%);
+  transition: .3s;
 }
 
 nav ul li .active,
 nav ul a:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 145, 44) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 145, 44) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 nav li a:hover:after{
-    width: 40px;
+  width: 40px;
 }
 
-nav li .mode{
-    font-size: 22px;
-    margin-top: 8px;
-    cursor: pointer;
-    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+nav .nav-mode .mode{
+  background: linear-gradient(145deg,rgb(255, 130, 46) 19%, rgb(255, 182, 46) 250%);
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-nav li .mode:hover{
-    background: #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: .1s;
+nav .nav-mode .mode:hover{
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+  cursor: pointer;
+  transition: .1s ;
 }
 
 nav .navbar-toggler{
-    outline: none;
+  outline: none;
 }
 
 nav .navbar-toggler span{
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #fff !important;
-    transition: .3s;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff !important;
+  transition: .3s;
 }
 
 nav .navbar-toggler .two{
-    margin: 7px 0;
+  margin: 7px 0;
 }
 
 nav .navbar-toggler .top{
-    transform: rotate(-45deg) translate(-3px, 10px);
+  transform: rotate(-45deg) translate(-3px, 10px);
 }
 
 nav .navbar-toggler .bottom{
-    transform: rotate(45deg) translate(-3px, -10px);
+  transform: rotate(45deg) translate(-3px, -10px);
 }
 
 nav .navbar-toggler .hidden{
-    opacity: 0;
+  opacity: 0;
 }
 
 /* End Navbar */
@@ -101,176 +96,173 @@ nav .navbar-toggler .hidden{
 /* Start Slider */
 
 .slider {
-    background-color: #DDD;
+  background-color: #DDD;
 }
 
 .slider .carousel-inner {
-    /* display: flex; */
-    align-items: center;
-    justify-content: left; 
-}
-
-@media (max-width: 768px) {
-    .slider .carousel-inner {
-    justify-content: center;
-    }
+  align-items: center;
+  justify-content: left; 
 }
 
 .slider .carousel-inner .info {
-    position: absolute;
-    color: #ffffff;
-    z-index: 3;
-    max-width: 900px;
-    left: 250px;
-    top: 200px;
-    line-height: 1.5
+  position: absolute;
+  color: #ffffff;
+  z-index: 3;
+  max-width: 900px;
+  left: 250px;
+  top: 200px;
+  line-height: 1.5
 }
 
 .slider .info h2{ 
-    font-size: 50px;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 50%, rgba(234,77,44,1) 150%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
+  font-size: 50px;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 50%, rgba(234,77,44,1) 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 
 .slider .info p{ 
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .slider .info p span{ 
-    font-size: 32px;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 50%, rgba(234,77,44,1) 150%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 50%, rgba(234,77,44,1) 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .slider .info .cv{
-    border-style: none;
-    border-radius: 5px;
-    font-size: 20px;
-    background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
-    color: #fff ;
-    padding: 8px 8px;
-    cursor: pointer;
-    margin-left: 150px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
+  color: #fff ;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-left: 150px;
 }
 /* 
 .slider .info .contact{
-    border:rgb(234, 130, 44) 2px  solid ;
-    border-radius: 5px;
-    font-size: 20px;
-    background: 145deg,rgba(255, 164, 46, 0) ;
-    color: #fff ;
-    padding: 8px 8px;
-    cursor: pointer;
-    margin-left: 20px;
+  border:rgb(234, 130, 44) 2px  solid ;
+  border-radius: 5px;
+  font-size: 20px;
+  background: 145deg,rgba(255, 164, 46, 0) ;
+  color: #fff ;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-left: 20px;
 }
 
 .slider .info .contact i{
-    font-size: 20px;
-    margin-right: 5px;
+  font-size: 20px;
+  margin-right: 5px;
 } */
 
 .slider .info i{
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .slider .info .cv:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
-    color: #fff;
-    transition: .3s;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+  color: #fff;
+  transition: .3s;
 }
 
 .slider .carousel-inner .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, .6);
-    z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 2;
 }
 
 .slider .carousel-item {
-    background-size: cover;
+  background-size: cover;
 }
 
 .slider .carousel-one {
-    background-image: url('../images/slider-2-min.jpg')
+  background-image: url('../images/slider-2-min.jpg')
 }
 
 .slider .carousel-two {
-    background-image: url('../images/slider-1-min.jpg')
+  background-image: url('../images/slider-1-min.jpg')
 }
 
 .slider .carousel-three {
-    background-image: url('../images/slider-3-min.jpg')
+  background-image: url('../images/slider-3-min.jpg')
 }
 
 .slider .carousel-four {
-    background-image: url('../images/slider-4-min.jpg')
+  background-image: url('../images/slider-4-min.jpg')
 }
 
 .slider .carousel-indicators li {
-    height: 8px;
-    cursor: pointer;
-    
+  height: 8px;
+  cursor: pointer;
+  
 }
 
 @media (max-width: 992px) {
-    .slider .carousel-inner .info {
-        left: 200px;
-        top: 200px;
-    }
+  .slider .carousel-inner .info {
+      left: 200px;
+      top: 200px;
+  }
 
-    .slider .info h2{ 
-        font-size: 47px;
-    }
+  .slider .info h2{ 
+      font-size: 47px;
+  }
 
-    .slider .info p{ 
-        font-size: 29px;
-    }
+  .slider .info p{ 
+      font-size: 29px;
+  }
 
-    .slider .info p span{ 
-        font-size: 29px;
-    }
+  .slider .info p span{ 
+      font-size: 29px;
+  }
 
-    .slider .info .cv{
-        font-size: 17px;
-    }
-        
-    .slider .info.info i{
-        font-size: 13px;
-    }
+  .slider .info .cv{
+      font-size: 17px;
+  }
+      
+  .slider .info.info i{
+      font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {
-    .slider .carousel-inner .info {
-        left: 80px;
-        top: 200px;
-    }
+  .slider .carousel-inner {
+    justify-content: center;
+  }
 
-    .slider .info h2{ 
-        font-size: 27px;
-    }
+  .slider .carousel-inner .info {
+    left: 70px;
+    top: 200px;
+  }
 
-    .slider .info p{ 
-        font-size: 17px;
-    }
+  .slider .info h2{ 
+    font-size: 27px;
+  }
 
-    .slider .info p span{ 
-        font-size: 17px;
-    }
+  .slider .info p{ 
+    font-size: 17px;
+  }
 
-    .slider .info .cv{
-        font-size: 10px;
-        margin-left:80px;
-    }
-        
-    .slider .info.info i{
-        font-size: 8px;
-    }
+  .slider .info p span{ 
+    font-size: 17px;
+  }
+
+  .slider .info .cv{
+      font-size: 10px;
+      margin-left:80px;
+  }
+      
+  .slider .info.info i{
+      font-size: 8px;
+  }
 }
 
 
@@ -281,41 +273,49 @@ nav .navbar-toggler .hidden{
 /*Start services*/
 
 .services .serv {
-    padding: 20px 15px;
-    color: #fff;
+  padding: 20px 15px;
+  color: #fff;
 }
 
 .services .serv i{
-    font-size: 35px;
-    margin-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
 .services .serv  h3{
-    margin-top: 15px;
-    height: 50px;
-    background: url("../images/brush.svg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    cursor: pointer;
-    font-size: 27px;
+  margin-top: 15px;
+  height: 50px;
+  background: url("../images/brush.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  cursor: pointer;
+  font-size: 27px;
 }
 
 
 @media(max-width:767px){
-    
-    .services .serv i{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    
-    .services .serv h3{
-        background-position: center center;
-        font-size: 18px;
-        height: 30px;
-    }
-    
 
+  .services .serv  i{
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    padding: 10px ;
+    border-radius: 50px;
+  }
 
+  .services .serv  h3{
+    background: none
+  }
+
+  .services .serv i{
+      font-size: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .services .serv h3{
+      background-position: center center;
+      font-size: 18px;
+      height: 30px;
+  }
+  
 }
 
 /*End services*/
@@ -323,195 +323,195 @@ nav .navbar-toggler .hidden{
 
 /*Start skills*/
 .skills .title {
-    font-size: 50px;
-    font-weight: 600;
-    background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
 }
 
 .skil-box{
-    margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 
 .skill-name{
-    font-size: 18px;
-    margin-left:5px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+  font-size: 18px;
+  margin-left:5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 
 }
 
 .progress{
-    width:100%;
-    background-color: rgba(126, 126, 126, 0.432);
-    height: 7px;
-    border-radius: 0%;
+  width:100%;
+  background-color: rgba(126, 126, 126, 0.432);
+  height: 7px;
+  border-radius: 0%;
 }
 
 .progress .progress-bar {
-    height: 7px;
-    width: 0%;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 250%); 
-    transition: all 5s;
+  height: 7px;
+  width: 0%;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 250%); 
+  transition: all 5s;
 }
 
 .skills span .wall{
-    margin-left: 50%;
-    height: 100%;
-    width: 2px;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
+  margin-left: 50%;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
 
 }
 
 /* .skills .icon img{
-    margin-top: -70;
-    height: 50px;
-    width: 50px;
-    margin-right: 50px;
+  margin-top: -70;
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
 } */
 
 /*End skills*/
 
 /* start portfolio  */
 .portfolio ul li{
-    background-color: rgba(97, 97, 97, 0.561) ;
-    padding: 6px 20px;
-    cursor: pointer;
-    margin-left: 30px ;
-    color: #fff; 
-    border-radius: 60px;
-    text-transform: uppercase;
-    display: inline-block;
+  background-color: rgba(97, 97, 97, 0.561) ;
+  padding: 6px 20px;
+  cursor: pointer;
+  margin-left: 30px ;
+  color: #fff; 
+  border-radius: 60px;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .portfolio  ul .active,
 .portfolio  ul li:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
-    color: #fff;
-    transition: .5s;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+  color: #fff;
+  transition: .5s;
 } 
 
 
 .portfolio .box{
-    height: 250px;
-    position: relative;
-    overflow: hidden;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
 }
 
 
 
 .portfolio img{
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .portfolio .box .info{
-    position: absolute;
-    background-color: #14141494;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transform: translateY(250px); 
-    transition: 1s;
-    color: #fff;
+  position: absolute;
+  background-color: #14141494;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(250px); 
+  transition: 1s;
+  color: #fff;
 }
 
 .portfolio .box:hover .info{
-    transform: translateY(0); 
+  transform: translateY(0); 
 }
 
 
 .portfolio .box  .info ul li {
-    color: rgb(51, 51, 51);
-    background: #fff;
-    margin-top: 10px;
-    padding: 5px 10px;
-    font-size: 15px;  
-    border-radius: 5px; 
-    font-weight: 700; 
+  color: rgb(51, 51, 51);
+  background: #fff;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 15px;  
+  border-radius: 5px; 
+  font-weight: 700; 
 }
 
 
 .portfolio .box .info .link{
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .portfolio .box .info .link a{
-    color: #fff;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 110%);
-    padding: 10px 10px;
-    font-size: 17px;
-    text-transform: none;
-    border-radius: 5%;
-    margin: 10px;
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 110%);
+  padding: 10px 10px;
+  font-size: 17px;
+  text-transform: none;
+  border-radius: 5%;
+  margin: 10px;
 }
 
 .portfolio .box .info .link  a:hover{
-    background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
+  background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
 }
 
 
 
 /* .portfolio .box .info .link .open-here:hover{
-    color: #fff;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
-    transition: .3s;
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
+  transition: .3s;
 } */
 
 .portfolio .box  .info a i{
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 
 .portfolio .title {
-    background-color: #41414181;
+  background-color: #41414181;
 }
 
 .portfolio .title h3{
-    font-size: 20px;
-    padding-top: 5px;
-    font-weight: 600;
-    color: #fff;
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .portfolio .title span{
-    display: block;
-    margin: 0 auto;
-    width: 20px;
-    height: 3px;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
-    
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  height: 3px;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
+  
 } 
 
 .portfolio .title p{
-    font-size:12px;
-    padding-top: 0px auto;
-    font-weight: 500;
-    padding-bottom: 10px;
-    color: rgb(199, 199, 199);
-    
+  font-size:12px;
+  padding-top: 0px auto;
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: rgb(199, 199, 199);
+  
 
 }
 
 .portfolio .view{
-    background-color: rgba(97, 97, 97, 0.561) ;
-    border: none ;
-    padding: 6px 20px;
-    cursor: pointer;
-    margin-top: 30px ;
-    color: #fff; 
-    border-radius: 10px;
-    text-transform: uppercase;
-    outline: none ;
+  background-color: rgba(97, 97, 97, 0.561) ;
+  border: none ;
+  padding: 6px 20px;
+  cursor: pointer;
+  margin-top: 30px ;
+  color: #fff; 
+  border-radius: 10px;
+  text-transform: uppercase;
+  outline: none ;
 
 }
 
 .portfolio .view:hover{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
-    transition: .5s;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
+  transition: .5s;
 }
 
 /* end portfolio  */
@@ -521,100 +521,100 @@ nav .navbar-toggler .hidden{
 /*Start contact*/
 .contact textarea,
 .contact input{
-    border: none;
-	font-size: 22px ;
-	margin-top: 30px;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
-	-webkit-background-clip: text; 
-	-webkit-text-fill-color: transparent;
-	border-bottom: 1px solid rgb(255,166,46)!important; 
+  border: none;
+font-size: 22px ;
+margin-top: 30px;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
+-webkit-background-clip: text; 
+-webkit-text-fill-color: transparent;
+border-bottom: 1px solid rgb(255,166,46)!important; 
 }
 
 
 
 form .form-control::placeholder{
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 }
 
 form textarea{
-    height: 150px !important;
+  height: 150px !important;
 }
 
 
 .contact .logo img{
-    height: 170px;
+  height: 170px;
 }
 
 .contact h1 {
-    font-size:45px;
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
-    margin-bottom: 0%;
+  font-size:45px;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin-bottom: 0%;
 }
 
 .contact  .service{
-    font-size: 20px;  
-    line-height: 50%;
-    font-weight: 400; 
+  font-size: 20px;  
+  line-height: 50%;
+  font-weight: 400; 
 }
 
 .contact p span{
-    background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 300%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 300%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
 .contact .scoial-media a i{
-    font-size: 20px;
-    margin-left: 20px;
-    color: #212121 ;
-    border-radius: 55%;
-    padding: 10px ;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
+  font-size: 20px;
+  margin-left: 20px;
+  color: #212121 ;
+  border-radius: 55%;
+  padding: 10px ;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
 }
 
 .contact .scoial-media a i:hover{
-    background: linear-gradient(145deg, rgb(234, 130, 44) 100%, rgba(255,166,46,1) 100%);
+  background: linear-gradient(145deg, rgb(234, 130, 44) 100%, rgba(255,166,46,1) 100%);
 }
 
 .contact .mail{
-    font-size: 20px;
-    cursor: pointer;
+  font-size: 20px;
+  cursor: pointer;
 } 
 
 .contact .mail a{ 
-    color: #fff;
+  color: #fff;
 } 
 
 .contact .mail i{
-    font-size: 18px;
+  font-size: 18px;
 } 
 
 .contact .mail a:hover{
-    color: rgb(255,166,46);
-    transition: .5s;
+  color: rgb(255,166,46);
+  transition: .5s;
 } 
 
 .contact .submit {
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
-    color: #fff;
-    border: none ;
-    padding: 10px 20px !important;
-    cursor: pointer;
-    margin-top: 30px ;
-    color: #fff; 
-    border-radius: 10px;
-    outline: none ;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
+  color: #fff;
+  border: none ;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  margin-top: 30px ;
+  color: #fff; 
+  border-radius: 10px;
+  outline: none ;
 }
 
 .contact .submit:hover {
-    background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
 
 }
 
@@ -623,31 +623,31 @@ form textarea{
 
 /*Start footer*/
 footer p{
-    margin: 0;
-    font-size: 17px;
-    line-height: 26px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 26px;
 }
 /*End footer*/
 
 /*button up*/
 .up{
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    outline: none !important;
-    display: none;
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none !important;
+  display: none;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
 
 }
 
 .up:hover{
-    background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
 
 }
 
@@ -655,102 +655,102 @@ footer p{
 
 /* social media */
 .scoial-media-menu{
-    position: fixed;
-    right: -110px;
-    top: 40%;
-    z-index: 99;
-    width: 150px;
-    flex-direction: column;
-    padding: 0 5px;
-    font-size: 20px;
+  position: fixed;
+  right: -110px;
+  top: 40%;
+  z-index: 99;
+  width: 150px;
+  flex-direction: column;
+  padding: 0 5px;
+  font-size: 20px;
 }
 
 
 .scoial-media-menu .menu-item{
-    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
-    transition: 1s;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+  transition: 1s;
 }
 
 .scoial-media-menu .menu-item:hover{
-    transform: translateX(-95px);
-    cursor: pointer;
-    transition: 1s;
+  transform: translateX(-95px);
+  cursor: pointer;
+  transition: 1s;
 }
 
 .scoial-media-menu .menu-item a{
-    display: inline;
+  display: inline;
 }
 
 .scoial-media-menu .menu-item a i{
-    font-size: 15px ;
-    color: #fff;
-    padding: 10px;
+  font-size: 15px ;
+  color: #fff;
+  padding: 10px;
 }
 
 .scoial-media-menu .menu-item a .text-item{
-    display: inline;
+  display: inline;
 }
 
 .scoial-media-menu .menu-item a .text-item{
-    color: #fff;
+  color: #fff;
 }
 /* end social media  */
 
 /*Start framework*/
 .heading{
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .heading h2{
-    color: #fff;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .heading span{
-    display: block;
-    margin: 0 auto;
-    width: 80px;
-    height: 3px;
-    background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
 }
 ul{
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 a{
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 
 /* media query */
 @media(max-width:991px){
-    .contact h1{
-        font-size: 25px;
-        margin-bottom: 5px;
-    }
+  .contact h1{
+      font-size: 25px;
+      margin-bottom: 5px;
+  }
 
-    .contact .service{
-        font-size: 15px;
-    }
+  .contact .service{
+      font-size: 15px;
+  }
 }
 
 @media(max-width:767px){
-    .portfolio .menu .btn{
-        font-size: 10px;
-        padding: 5px;
-        border-radius: 15px;
-        margin-left: 5px;
-    }
-    
-    .contact .info:nth-of-type(2) {
-        border: none !important;
-    }
-    .heading h2 {
-    font-size: 35px;
-    }
+  .portfolio .menu .btn{
+      font-size: 10px;
+      padding: 5px;
+      border-radius: 15px;
+      margin-left: 5px;
+  }
+  
+  .contact .info:nth-of-type(2) {
+      border: none !important;
+  }
+  .heading h2 {
+  font-size: 35px;
+  }
 
 }

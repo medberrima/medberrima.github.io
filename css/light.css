@@ -2,14 +2,16 @@
 
 body{
   font-family: 'Lato', sans-serif;    
-  background-color: #fff;
-  color: #010101;
-  outline: none !important;
+  background-color: #ffffff;
+  color: #121212;
+  
 }
+
+
 
 /* Start Navbar */
 .navbar {
-  background: rgba(195, 195, 195, 0.609);
+  background: rgba(231, 231, 231, 0.5);
 }
 
 .navbar-brand img {
@@ -50,20 +52,20 @@ nav li a:hover:after{
   width: 40px;
 }
 
-nav li .mode{
-  font-size: 22px;
+nav .nav-mode .mode{
+  background: linear-gradient(145deg,rgb(255, 130, 46) 19%, rgb(255, 182, 46) 250%);
+  color: #ffffff;
+  padding: 5px;
   margin-top: 8px;
+  border-radius: 5px;
+  font-size: 15px;
   cursor: pointer;
-  background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
-nav li .mode:hover{
-  background: #fff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: .1s;
+nav .nav-mode .mode:hover{
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+  cursor: pointer;
+  transition: .1s ;
 }
 
 nav .navbar-toggler{
@@ -103,7 +105,6 @@ nav .navbar-toggler .hidden{
 }
 
 .slider .carousel-inner {
-  /* display: flex; */
   align-items: center;
   justify-content: left; 
 }
@@ -180,6 +181,42 @@ nav .navbar-toggler .hidden{
   transition: .3s;
 }
 
+.slider .carousel-inner .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  z-index: 2;
+}
+
+.slider .carousel-item {
+  background-size: cover;
+}
+
+.slider .carousel-one {
+  background-image: url('../images/slider-2-min.jpg')
+}
+
+.slider .carousel-two {
+  background-image: url('../images/slider-1-min.jpg')
+}
+
+.slider .carousel-three {
+  background-image: url('../images/slider-3-min.jpg')
+}
+
+.slider .carousel-four {
+  background-image: url('../images/slider-4-min.jpg')
+}
+
+.slider .carousel-indicators li {
+  height: 8px;
+  cursor: pointer;
+  
+}
+
 @media (max-width: 992px) {
   .slider .carousel-inner .info {
       left: 200px;
@@ -230,64 +267,21 @@ nav .navbar-toggler .hidden{
       margin-left:80px;
   }
       
-  .slider .info i{
+  .slider .info.info i{
       font-size: 8px;
   }
 }
 
-.slider .carousel-inner .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(78, 78, 78, 0.6);
-  z-index: 2;
-}
 
-.slider .carousel-item {
-  background-size: cover;
-}
-
-.slider .carousel-one {
-  background-image: url('../images/slider-2-min.jpg')
-}
-
-.slider .carousel-two {
-  background-image: url('../images/slider-1-min.jpg')
-}
-
-.slider .carousel-three {
-  background-image: url('../images/slider-3-min.jpg')
-}
-
-.slider .carousel-four {
-  background-image: url('../images/slider-4-min.jpg')
-}
-
-.slider .carousel-indicators li {
-  height: 8px;
-  cursor: pointer;
-}
 
 /* End Slider */
-
 
 
 /*Start services*/
 
 .services .serv {
   padding: 20px 15px;
-  cursor: pointer;
-  color: #010101;
-
-}
-
-
-
-.services .serv .detail h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
+  color: #fff;
 }
 
 .services .serv i{
@@ -295,13 +289,32 @@ nav .navbar-toggler .hidden{
   margin-bottom: 10px;
 }
 
-.services .serv p{
-  font-size: 14px;
+.services .serv  h3{
+  margin-top: 15px;
+  height: 50px;
+  background: url("../images/brush.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  cursor: pointer;
+  font-size: 27px;
 }
 
-.services .serv:hover {
-  color: rgb(255,166,46);; 
-  transition: .3s;
+
+@media(max-width:767px){
+  
+  .services .serv i{
+      font-size: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .services .serv h3{
+      background-position: center center;
+      font-size: 18px;
+      height: 30px;
+  }
+  
+
+
 }
 
 /*End services*/
@@ -311,7 +324,9 @@ nav .navbar-toggler .hidden{
 .skills .title {
   font-size: 50px;
   font-weight: 600;
-  color: rgb(255,166,46);;
+  background: linear-gradient(145deg,rgb(255, 164, 46) 19%, rgba(255,166,46,1) 250%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 40px;
 }
 
@@ -337,7 +352,7 @@ nav .navbar-toggler .hidden{
 .progress .progress-bar {
   height: 7px;
   width: 0%;
-  background-color: rgb(255,166,46);
+  background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 250%); 
   transition: all 5s;
 }
 
@@ -345,7 +360,8 @@ nav .navbar-toggler .hidden{
   margin-left: 50%;
   height: 100%;
   width: 2px;
-  background-color: rgb(255,166,46);;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
+
 }
 
 /* .skills .icon img{
@@ -363,7 +379,7 @@ nav .navbar-toggler .hidden{
   padding: 6px 20px;
   cursor: pointer;
   margin-left: 30px ;
-  color: #010101; 
+  color: #fff; 
   border-radius: 60px;
   text-transform: uppercase;
   display: inline-block;
@@ -371,8 +387,8 @@ nav .navbar-toggler .hidden{
 
 .portfolio  ul .active,
 .portfolio  ul li:hover{
-  background-color: rgb(255,166,46);;
-  color: #010101;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+  color: #fff;
   transition: .5s;
 } 
 
@@ -399,7 +415,7 @@ nav .navbar-toggler .hidden{
   width: 100%;
   transform: translateY(250px); 
   transition: 1s;
-  color: #010101;
+  color: #fff;
 }
 
 .portfolio .box:hover .info{
@@ -418,18 +434,31 @@ nav .navbar-toggler .hidden{
 }
 
 
-.portfolio .box  .info .link{
+.portfolio .box .info .link{
   margin-top: 50px;
 }
 
-.portfolio .box  .info .link a{
+.portfolio .box .info .link a{
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 110%);
+  padding: 10px 10px;
+  font-size: 17px;
+  text-transform: none;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.portfolio .box .info .link  a:hover{
+  background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
+}
+
+
+
+/* .portfolio .box .info .link .open-here:hover{
   color: #fff;
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
-  padding: 10px 10px;
-  font-size: 25px;
-  text-transform: capitalize;
-
-}
+  transition: .3s;
+} */
 
 .portfolio .box  .info a i{
   margin-left: 5px;
@@ -437,14 +466,14 @@ nav .navbar-toggler .hidden{
 
 
 .portfolio .title {
-  background-color: #dddddd42;
+  background-color: #41414181;
 }
 
 .portfolio .title h3{
   font-size: 20px;
   padding-top: 5px;
   font-weight: 600;
-  color: #010101;
+  color: #fff;
 }
 
 .portfolio .title span{
@@ -452,7 +481,7 @@ nav .navbar-toggler .hidden{
   margin: 0 auto;
   width: 20px;
   height: 3px;
-  background-color: rgb(255,166,46);;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
   
 } 
 
@@ -461,15 +490,10 @@ nav .navbar-toggler .hidden{
   padding-top: 0px auto;
   font-weight: 500;
   padding-bottom: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(199, 199, 199);
   
 
 }
-
-/* .portfolio .more{
-  display: none;
-} */
-
 
 .portfolio .view{
   background-color: rgba(97, 97, 97, 0.561) ;
@@ -477,7 +501,7 @@ nav .navbar-toggler .hidden{
   padding: 6px 20px;
   cursor: pointer;
   margin-top: 30px ;
-  color: #010101; 
+  color: #fff; 
   border-radius: 10px;
   text-transform: uppercase;
   outline: none ;
@@ -485,7 +509,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view:hover{
-  background-color:rgb(255,166,46); ;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
   transition: .5s;
 }
 
@@ -494,21 +518,24 @@ nav .navbar-toggler .hidden{
 
 
 /*Start contact*/
-
 .contact textarea,
 .contact input{
-  background: transparent !important;
-  border: none !important;
-  font-size: 22px !important;
-  margin-top: 30px;
-  color: rgb(255,166,46) !important;
-  width: 100%;
-  border-bottom: 1px solid rgb(255,166,46) !important; 
-  outline: none;
+  border: none;
+font-size: 22px ;
+margin-top: 30px;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
+-webkit-background-clip: text; 
+-webkit-text-fill-color: transparent;
+border-bottom: 1px solid rgb(255,166,46)!important; 
 }
 
+
+
 form .form-control::placeholder{
-  color: rgb(255,166,46);
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 form textarea{
@@ -522,7 +549,9 @@ form textarea{
 
 .contact h1 {
   font-size:45px;
-  color: rgb(255,166,46);;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
   margin-bottom: 0%;
 }
@@ -534,21 +563,23 @@ form textarea{
 }
 
 .contact p span{
-  color: rgb(255,166,46);;
+  background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 300%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
 .contact .scoial-media a i{
   font-size: 20px;
   margin-left: 20px;
-  color: #fff ;
+  color: #212121 ;
   border-radius: 55%;
   padding: 10px ;
-  background-color: rgb(255,166,46);;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
 }
 
 .contact .scoial-media a i:hover{
-  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+  background: linear-gradient(145deg, rgb(234, 130, 44) 100%, rgba(255,166,46,1) 100%);
 }
 
 .contact .mail{
@@ -557,7 +588,7 @@ form textarea{
 } 
 
 .contact .mail a{ 
-  color: #010101;
+  color: #fff;
 } 
 
 .contact .mail i{
@@ -565,10 +596,26 @@ form textarea{
 } 
 
 .contact .mail a:hover{
-  color: rgb(255,166,46);;
+  color: rgb(255,166,46);
   transition: .5s;
 } 
 
+.contact .submit {
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
+  color: #fff;
+  border: none ;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  margin-top: 30px ;
+  color: #fff; 
+  border-radius: 10px;
+  outline: none ;
+}
+
+.contact .submit:hover {
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+
+}
 
 
 /*End contact*/
@@ -589,17 +636,21 @@ footer p{
   width: 40px;
   height: 40px;
   border-radius: 10%;
-  background: rgb(255,166,46);
   border: none;
   color: #fff;
   cursor: pointer;
   outline: none !important;
   display: none;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+
 }
 
 .up:hover{
-  background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 100%);
+  background: linear-gradient(145deg, rgb(255, 130, 46) 19%, rgb(234, 104, 44) 100%);
+
 }
+
+/* end button up */
 
 /* social media */
 .scoial-media-menu{
@@ -610,7 +661,6 @@ footer p{
   width: 150px;
   flex-direction: column;
   padding: 0 5px;
-  transition: all 0.5s ease;
   font-size: 20px;
 }
 
@@ -645,8 +695,6 @@ footer p{
 }
 /* end social media  */
 
-
-
 /*Start framework*/
 .heading{
   text-align: center;
@@ -655,7 +703,7 @@ footer p{
 }
 
 .heading h2{
-  color: #010101;
+  color: #fff;
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
@@ -665,7 +713,7 @@ footer p{
   margin: 0 auto;
   width: 80px;
   height: 3px;
-  background-color: #010101;
+  background-color: #fff;
 }
 ul{
   list-style: none;
@@ -673,27 +721,12 @@ ul{
 }
 
 a{
-text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 
 /* media query */
 @media(max-width:991px){
-  nav ul li a{
-      display: inline-block !important;
-      margin-bottom: 15px;
-  }
-
-  .header .info .title{
-      margin-left: 80px;
-      margin-top: 80px;
-  }
-
-
-  nav li a::after {
-      left: 1px;
-  }
-
   .contact h1{
       font-size: 25px;
       margin-bottom: 5px;
@@ -703,46 +736,8 @@ text-decoration: none !important;
       font-size: 15px;
   }
 }
+
 @media(max-width:767px){
-  .header {
-      width: 100% !;
-  }
-  .header .info{
-      width: 70%;
-      padding: 0 200px;
-  }
-
-  .header .info .social-media{
-      display: none;
-  }
-
-  .header .info .title{
-      margin-left: -130px;
-      width: 500px;
-  }
-  
-  .header .title h2 {
-      font-size: 30px;
-      margin-left: -50px;
-  }
-  
-  .header .title p {
-      font-size: 15px;
-      margin-left: -300px;
-      margin-top: -10px;
-      text-align: center;
-  }
-  
-  .header .title .cv{
-      margin-left: 50px;
-      font-size: 12px ;
-  }
-
-  .header .title .cv i{
-      font-size: 12px ;
-  }
-
-
   .portfolio .menu .btn{
       font-size: 10px;
       padding: 5px;
@@ -753,7 +748,6 @@ text-decoration: none !important;
   .contact .info:nth-of-type(2) {
       border: none !important;
   }
-
   .heading h2 {
   font-size: 35px;
   }
