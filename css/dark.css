@@ -208,7 +208,7 @@ nav .navbar-toggler .hidden{
 
 @media (max-width: 992px) {
   .slider .carousel-inner .info {
-      left: 200px;
+      left: 250px;
       top: 200px;
   }
 
@@ -239,7 +239,7 @@ nav .navbar-toggler .hidden{
   }
 
   .slider .carousel-inner .info {
-    left: 70px;
+    left: 40px;
     top: 200px;
   }
 
