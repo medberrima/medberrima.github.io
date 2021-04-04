@@ -1,6 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;    
-  background-color: rgb(245, 245, 245);
+  background-color: #F5F5F5 ;
   color: #000;
 }
 
@@ -274,7 +274,7 @@ nav .navbar-toggler .hidden{
 
 .services .serv {
   padding: 20px 15px;
-  color: #fff;
+  color: #F5F5F5;
 }
 
 .services .serv i{
@@ -299,6 +299,7 @@ nav .navbar-toggler .hidden{
 @media(max-width:767px){
   .services .serv  i{
     background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    color: #fff;
     padding: 10px ;
     border-radius: 50px;
     display: inline-block;
@@ -309,7 +310,8 @@ nav .navbar-toggler .hidden{
   }
 
   .services .serv  h3{
-    background: none
+    background: none;
+    color: #121211;
   }
   
   .services .serv h3{
