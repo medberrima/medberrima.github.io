@@ -1,17 +1,12 @@
-
-
 body{
   font-family: 'Lato', sans-serif;    
-  background-color: #ffffff;
-  color: #121212;
-  
+  background-color: rgb(245, 245, 245);
+  color: #000;
 }
-
-
 
 /* Start Navbar */
 .navbar {
-  background: rgba(231, 231, 231, 0.5);
+  background: rgba(170, 170, 170, 0.5);
 }
 
 .navbar-brand img {
@@ -24,7 +19,7 @@ nav ul li:not(:last-of-type){
 
 nav ul li a{
   position: relative;
-  color: #fff !important;
+  color: #fff ;
   text-transform: uppercase;
   font-size: 15px;
   padding: 12px ;
@@ -109,12 +104,6 @@ nav .navbar-toggler .hidden{
   justify-content: left; 
 }
 
-@media (max-width: 768px) {
-  .slider .carousel-inner {
-  justify-content: center;
-  }
-}
-
 .slider .carousel-inner .info {
   position: absolute;
   color: #ffffff;
@@ -187,7 +176,7 @@ nav .navbar-toggler .hidden{
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(42, 42, 42, 0.6);
   z-index: 2;
 }
 
@@ -219,7 +208,7 @@ nav .navbar-toggler .hidden{
 
 @media (max-width: 992px) {
   .slider .carousel-inner .info {
-      left: 200px;
+      left: 250px;
       top: 200px;
   }
 
@@ -245,21 +234,25 @@ nav .navbar-toggler .hidden{
 }
 
 @media (max-width: 768px) {
+  .slider .carousel-inner {
+    justify-content: center;
+  }
+
   .slider .carousel-inner .info {
-      left: 80px;
-      top: 200px;
+    left: 40px;
+    top: 200px;
   }
 
   .slider .info h2{ 
-      font-size: 27px;
+    font-size: 27px;
   }
 
   .slider .info p{ 
-      font-size: 17px;
+    font-size: 17px;
   }
 
   .slider .info p span{ 
-      font-size: 17px;
+    font-size: 17px;
   }
 
   .slider .info .cv{
@@ -287,6 +280,9 @@ nav .navbar-toggler .hidden{
 .services .serv i{
   font-size: 35px;
   margin-bottom: 10px;
+  color: rgb(234, 136, 44) ;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .services .serv  h3{
@@ -301,10 +297,19 @@ nav .navbar-toggler .hidden{
 
 
 @media(max-width:767px){
-  
-  .services .serv i{
-      font-size: 25px;
+  .services .serv  i{
+    background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
+    padding: 10px ;
+    border-radius: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
       margin-bottom: 10px;
+  }
+
+  .services .serv  h3{
+    background: none
   }
   
   .services .serv h3{
@@ -313,8 +318,6 @@ nav .navbar-toggler .hidden{
       height: 30px;
   }
   
-
-
 }
 
 /*End services*/
@@ -392,14 +395,11 @@ nav .navbar-toggler .hidden{
   transition: .5s;
 } 
 
-
 .portfolio .box{
   height: 250px;
   position: relative;
   overflow: hidden;
 }
-
-
 
 .portfolio img{
   height: 100%;
@@ -422,7 +422,6 @@ nav .navbar-toggler .hidden{
   transform: translateY(0); 
 }
 
-
 .portfolio .box  .info ul li {
   color: rgb(51, 51, 51);
   background: #fff;
@@ -432,7 +431,6 @@ nav .navbar-toggler .hidden{
   border-radius: 5px; 
   font-weight: 700; 
 }
-
 
 .portfolio .box .info .link{
   margin-top: 50px;
@@ -452,8 +450,6 @@ nav .navbar-toggler .hidden{
   background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
 }
 
-
-
 /* .portfolio .box .info .link .open-here:hover{
   color: #fff;
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
@@ -463,7 +459,6 @@ nav .navbar-toggler .hidden{
 .portfolio .box  .info a i{
   margin-left: 5px;
 }
-
 
 .portfolio .title {
   background-color: #41414181;
@@ -490,9 +485,7 @@ nav .navbar-toggler .hidden{
   padding-top: 0px auto;
   font-weight: 500;
   padding-bottom: 10px;
-  color: rgb(199, 199, 199);
-  
-
+  color: rgb(241, 241, 241);
 }
 
 .portfolio .view{
@@ -521,20 +514,19 @@ nav .navbar-toggler .hidden{
 .contact textarea,
 .contact input{
   border: none;
-font-size: 22px ;
-margin-top: 30px;
+  font-size: 22px ;
+  margin-top: 30px;
   background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
--webkit-background-clip: text; 
--webkit-text-fill-color: transparent;
-border-bottom: 1px solid rgb(255,166,46)!important; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(255,166,46)!important; 
+  box-shadow: none !important;
 }
-
-
 
 form .form-control::placeholder{
   background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
@@ -572,7 +564,7 @@ form textarea{
 .contact .scoial-media a i{
   font-size: 20px;
   margin-left: 20px;
-  color: #212121 ;
+  color: #f1f1f1 ;
   border-radius: 55%;
   padding: 10px ;
   background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgb(234, 104, 44) 100%);
@@ -588,7 +580,7 @@ form textarea{
 } 
 
 .contact .mail a{ 
-  color: #fff;
+  color: #212121;
 } 
 
 .contact .mail i{
@@ -703,7 +695,7 @@ footer p{
 }
 
 .heading h2{
-  color: #fff;
+  color: #121211;
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
@@ -713,7 +705,7 @@ footer p{
   margin: 0 auto;
   width: 80px;
   height: 3px;
-  background-color: #fff;
+  background-color: #121211;
 }
 ul{
   list-style: none;

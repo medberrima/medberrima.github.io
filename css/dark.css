@@ -299,15 +299,15 @@ nav .navbar-toggler .hidden{
     background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
     padding: 10px ;
     border-radius: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+      margin-bottom: 10px;
   }
 
   .services .serv  h3{
     background: none
-  }
-
-  .services .serv i{
-      font-size: 25px;
-      margin-bottom: 10px;
   }
   
   .services .serv h3{
@@ -522,20 +522,19 @@ nav .navbar-toggler .hidden{
 .contact textarea,
 .contact input{
   border: none;
-font-size: 22px ;
-margin-top: 30px;
+  font-size: 22px ;
+  margin-top: 30px;
   background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 136, 44) 50%);
--webkit-background-clip: text; 
--webkit-text-fill-color: transparent;
-border-bottom: 1px solid rgb(255,166,46)!important; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(255,166,46)!important; 
+  box-shadow: none !important;
 }
-
-
 
 form .form-control::placeholder{
   background: linear-gradient(165deg, rgba(255,166,46,1) 19%, rgb(234, 130, 44) 50%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
