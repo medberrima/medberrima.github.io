@@ -491,22 +491,22 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view{
-  background-color: rgba(97, 97, 97, 0.561) ;
-  border: none ;
+  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 200%);
   padding: 6px 20px;
   cursor: pointer;
-  margin-top: 30px ;
+  margin-top: 60px ;
   color: #fff; 
   border-radius: 10px;
   text-transform: uppercase;
   outline: none ;
-
+  border: none ;
 }
 
 .portfolio .view:hover{
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
   transition: .5s;
 }
+
 
 /* end portfolio  */
 

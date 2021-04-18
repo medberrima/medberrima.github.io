@@ -5,13 +5,10 @@
         $('.navbar-toggler .three').toggleClass('bottom');
     })
 
-
     
     // Adjust Slider Height
     var winH    = $(window).height();
     $('.slider, .carousel-item').height(winH );
-
-
 
 
     //smooth scroll
@@ -22,9 +19,6 @@
             scrollTop: $('#' + $(this).data('scroll')).offset().top - 80 
         })
     })
-
-
-
 
     
     prevScrollpos = window.pageYOffset;
@@ -38,7 +32,6 @@
             $('nav').css({'top' : '-125px' ,'transition': '.3s'})
         }
         prevScrollpos = currentScrollPos;
-
 
         // skills bar 
         const progressBars= document.querySelectorAll('.progress-bar') ;
@@ -76,19 +69,18 @@
         $(this).addClass('active').siblings().removeClass('active')
     })
 
-    
 
     // portfolio  view more
-    $(".portfolio .more").css('display', "none");
-    $('.view').click(function(){
-        if($(".portfolio .more").css('display')  == "none"){
-            $(".portfolio .more").css('display', "inline");
-            $(".portfolio .view").html('view less');
-        }else{
-            $(".portfolio .more").css('display', "none");
-            $(".portfolio .view").html('view more');
-        }
-    })
+    // $(".portfolio .more").css('display', "none");
+    // $('.view').click(function(){
+    //     if($(".portfolio .more").css('display')  == "none"){
+    //         $(".portfolio .more").css('display', "inline");
+    //         $(".portfolio .view").html('view less');
+    //     }else{
+    //         $(".portfolio .more").css('display', "none");
+    //         $(".portfolio .view").html('view more');
+    //     }
+    // })
 
 
     //switch between style 
@@ -102,5 +94,4 @@
             link.attr('href', 'css/light.css') 
             $(".nav-mode .fas").removeClass('fa-sun').addClass('fa-moon');           
         }
-
     })
