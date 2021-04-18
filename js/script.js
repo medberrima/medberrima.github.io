@@ -43,7 +43,7 @@
             });
         }
 
-        //button up
+        //button up index
         if($(window).scrollTop() >= ($('.services').offset().top - 200)){
             $('.up').fadeIn(800)
         }else{$('.up').fadeOut(800)}
@@ -69,7 +69,6 @@
         $(this).addClass('active').siblings().removeClass('active')
     })
 
-
     // portfolio  view more
     // $(".portfolio .more").css('display', "none");
     // $('.view').click(function(){
@@ -81,7 +80,6 @@
     //         $(".portfolio .view").html('view more');
     //     }
     // })
-
 
     //switch between style 
     $('.nav-mode').on('click', function () {       
