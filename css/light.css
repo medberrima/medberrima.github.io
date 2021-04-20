@@ -1,6 +1,6 @@
 body{
   font-family: 'Lato', sans-serif;    
-  background-color: #F5F5F5 ;
+  background-color: #ffffff ;
   color: #000;
 }
 
@@ -133,7 +133,17 @@ nav .navbar-toggler .hidden{
   -webkit-text-fill-color: transparent;
 }
 
-.slider .info .cv{
+/* .slider .info .cv{
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background: linear-gradient(145deg,rgba(255,166,46,1) 19%, rgba(255,166,46,1) 250%);
+  color: #fff ;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-left: 150px;
+} */
+.slider .info .cont{
   border-style: none;
   border-radius: 5px;
   font-size: 20px;
@@ -143,22 +153,11 @@ nav .navbar-toggler .hidden{
   cursor: pointer;
   margin-left: 150px;
 }
-/* 
-.slider .info .contact{
-  border:rgb(234, 130, 44) 2px  solid ;
-  border-radius: 5px;
-  font-size: 20px;
-  background: 145deg,rgba(255, 164, 46, 0) ;
-  color: #fff ;
-  padding: 8px 8px;
-  cursor: pointer;
-  margin-left: 20px;
-}
 
-.slider .info .contact i{
+.slider .info .cont i{
   font-size: 20px;
   margin-right: 5px;
-} */
+} 
 
 .slider .info i{
   font-size: 15px;
