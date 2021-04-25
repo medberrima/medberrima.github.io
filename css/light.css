@@ -467,7 +467,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio .title h3{
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 8px;
   font-weight: 600;
   color: #fff;
 }
@@ -478,7 +478,6 @@ nav .navbar-toggler .hidden{
   width: 20px;
   height: 3px;
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
-  
 } 
 
 .portfolio .title p{

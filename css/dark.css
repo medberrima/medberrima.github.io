@@ -370,7 +370,6 @@ nav .navbar-toggler .hidden{
 
 /*End services*/
 
-
 /*Start skills*/
 .skills .title {
   font-size: 50px;
@@ -443,14 +442,11 @@ nav .navbar-toggler .hidden{
   transition: .5s;
 } 
 
-
 .portfolio .box{
   height: 250px;
   position: relative;
   overflow: hidden;
 }
-
-
 
 .portfolio img{
   height: 100%;
@@ -473,7 +469,6 @@ nav .navbar-toggler .hidden{
   transform: translateY(0); 
 }
 
-
 .portfolio .box  .info ul li {
   color: rgb(51, 51, 51);
   background: #fff;
@@ -483,7 +478,6 @@ nav .navbar-toggler .hidden{
   border-radius: 5px; 
   font-weight: 700; 
 }
-
 
 .portfolio .box .info .link{
   margin-top: 50px;
@@ -503,8 +497,6 @@ nav .navbar-toggler .hidden{
   background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
 }
 
-
-
 /* .portfolio .box .info .link .open-here:hover{
   color: #fff;
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
@@ -522,7 +514,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio .title h3{
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 8px;
   font-weight: 600;
   color: #fff;
 }
