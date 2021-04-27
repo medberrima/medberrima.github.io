@@ -3,6 +3,8 @@ body{
   background-color: #212121;
   color: #fff;
 }
+::-webkit-scrollbar {width: 6px; height: 5px; background: #66666600; }
+::-webkit-scrollbar-thumb { background-color: #f2862e; -webkit-border-radius: 1ex; }
 
 /* Start Navbar */
 .navbar {
@@ -534,8 +536,6 @@ nav .navbar-toggler .hidden{
   font-weight: 500;
   padding-bottom: 10px;
   color: rgb(199, 199, 199);
-  
-
 }
 
 .portfolio .view{

@@ -4,6 +4,9 @@ body{
   color: #000;
 }
 
+::-webkit-scrollbar {width: 6px; height: 5px; background: #6666663a; }
+::-webkit-scrollbar-thumb { background-color: #f2862e;  }
+
 /* Start Navbar */
 .navbar {
   background: rgba(170, 170, 170, 0.5);
@@ -393,7 +396,7 @@ nav .navbar-toggler .hidden{
 .portfolio  ul li:hover{
   background: linear-gradient(145deg, rgba(255,166,46,1) 19%, rgba(234,77,44,1) 150%);
   color: #fff;
-  transition: .5s;
+  transition: 15s;
 } 
 
 .portfolio .box{
