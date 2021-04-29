@@ -226,9 +226,10 @@ nav .navbar-toggler .hidden{
       font-size: 29px;
   }
 
-  .slider .info .cv{
-      font-size: 17px;
-  }
+  .slider .info .cont{
+    font-size: 10px;
+    margin-left:80px;
+}
       
   .slider .info.info i{
       font-size: 13px;

@@ -1,9 +1,9 @@
     //click on navbar toggler
-    $('.navbar-toggler').on('click',function(){
-        $('.navbar-toggler .one').toggleClass('top');
-        $('.navbar-toggler .two').toggleClass('hidden');
-        $('.navbar-toggler .three').toggleClass('bottom');
-    })
+    // $('.navbar-toggler').on('click',function(){
+    //     $('.navbar-toggler .one').toggleClass('top');
+    //     $('.navbar-toggler .two').toggleClass('hidden');
+    //     $('.navbar-toggler .three').toggleClass('bottom');
+    // })
 
     
     // Adjust Slider Height
