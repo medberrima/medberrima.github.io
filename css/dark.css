@@ -383,7 +383,7 @@ nav .navbar-toggler .hidden{
 }
 
 .skil-box{
-  margin-top: 20px !important;
+  margin-top: 20px ;
 }
 
 .skill-name{
@@ -413,16 +413,7 @@ nav .navbar-toggler .hidden{
   height: 100%;
   width: 2px;
   background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
-
 }
-
-/* .skills .icon img{
-  margin-top: -70;
-  height: 50px;
-  width: 50px;
-  margin-right: 50px;
-} */
-
 /*End skills*/
 
 /* start portfolio  */
@@ -499,12 +490,6 @@ nav .navbar-toggler .hidden{
   background: linear-gradient(145deg,  rgb(234, 130, 44) 0%, rgba(255,166,46,1)  90%);
 }
 
-/* .portfolio .box .info .link .open-here:hover{
-  color: #fff;
-  background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
-  transition: .3s;
-} */
-
 .portfolio .box  .info a i{
   margin-left: 5px;
 }
@@ -527,7 +512,6 @@ nav .navbar-toggler .hidden{
   width: 20px;
   height: 3px;
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 150%);
-  
 } 
 
 .portfolio .title p{
@@ -554,10 +538,7 @@ nav .navbar-toggler .hidden{
   background: linear-gradient(145deg, rgba(255,166,46,1) 0%, rgba(234,77,44,1) 90%);
   transition: .5s;
 }
-
 /* end portfolio  */
-
-
 
 /*Start contact*/
 .contact textarea,
@@ -762,7 +743,6 @@ a{
   text-decoration: none !important;
 }
 
-
 /* media query */
 @media(max-width:991px){
   .contact h1{
@@ -776,6 +756,10 @@ a{
 }
 
 @media(max-width:767px){
+  .skills .title {
+    font-size: 35px;
+  }
+
   .portfolio .menu .btn{
       font-size: 10px;
       padding: 5px;

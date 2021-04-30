@@ -1,9 +1,9 @@
     //click on navbar toggler
-    // $('.navbar-toggler').on('click',function(){
-    //     $('.navbar-toggler .one').toggleClass('top');
-    //     $('.navbar-toggler .two').toggleClass('hidden');
-    //     $('.navbar-toggler .three').toggleClass('bottom');
-    // })
+    $('.navbar-toggler').on('click',function(){
+        $('.navbar-toggler .one').toggleClass('top');
+        $('.navbar-toggler .two').toggleClass('hidden');
+        $('.navbar-toggler .three').toggleClass('bottom');
+    })
 
     
     // Adjust Slider Height
@@ -23,7 +23,6 @@
     
     prevScrollpos = window.pageYOffset;
     $(window).scroll(function(){
-
         //scroll navbar 
         var currentScrollPos = window.pageYOffset;
         if(prevScrollpos > currentScrollPos){
@@ -44,7 +43,7 @@
         }
 
         //button up index
-        if($(window).scrollTop() >= ($('.services').offset().top - 200)){
+        if($(window).scrollTop() >= ($('.skills').offset().top - 200)){
             $('.up').fadeIn(800)
         }else{$('.up').fadeOut(800)}
     })
@@ -93,3 +92,27 @@
             $(".nav-mode .fas").removeClass('fa-sun').addClass('fa-moon');           
         }
     })
+
+
+    $(document).ready(function(){
+        $('.skills-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
