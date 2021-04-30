@@ -6,14 +6,20 @@
   }
   
   .slick-slide img {
+      margin-left:35px;
       width: 50%;
-      filter: opacity(.8);
+      filter: none ;
     }
-    
+    @media (max-width:767px) {
+        .slick-slide img {
+            margin-left:15px;
+        }
+        
+    }
     .slick-slide img:hover {
-      filter: opacity(1) contrast(1.2) ;
+        filter: grayscale(0.5);
       transition: .5s;
-  }
+    }
   
   .slick-slider
   {

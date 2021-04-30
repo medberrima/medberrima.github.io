@@ -414,9 +414,14 @@ nav .navbar-toggler .hidden{
   width: 2px;
   background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
 }
+
 /*End skills*/
 
 /* start portfolio  */
+
+.portfolio{
+  margin-top: 150px;
+}
 .portfolio ul li{
   background-color: rgba(97, 97, 97, 0.561) ;
   padding: 6px 20px;
@@ -761,7 +766,7 @@ a{
   }
 
   .portfolio .menu .btn{
-      font-size: 10px;
+      font-size: 12px;
       padding: 5px;
       border-radius: 15px;
       margin-left: 5px;
