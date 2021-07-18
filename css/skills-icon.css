@@ -17,7 +17,7 @@
         
     }
     .slick-slide img:hover {
-        filter: grayscale(0.5);
+    filter: grayscale(0.5);
       transition: .5s;
     }
   

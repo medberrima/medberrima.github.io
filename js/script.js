@@ -64,9 +64,18 @@
     var mixer = mixitup('.gallary');
 
     //add class active portfolio menu
-    $('.menu ul li').click(function(){
+    $('.menu .btn-choice li').click(function(){
         $(this).addClass('active').siblings().removeClass('active')
     })
+
+    $('.menu #design-menu li').click(function(){
+        $(this).addClass('activeCat').siblings().removeClass('activeCat')
+    })
+
+    $('.menu #dev-menuu li').click(function(){
+        $(this).addClass('activeCat').siblings().removeClass('activeCat')
+    })
+
 
     // portfolio  view more
     // $(".portfolio .more").css('display', "none");
@@ -116,3 +125,19 @@
             }]
         });
     });
+
+
+
+    function designCat() {
+        document.getElementById("design-menu").style.display = "block";
+        document.getElementById("dev-menu").style.display = "none";
+    }
+    function devCat() {
+        document.getElementById("design-menu").style.display = "none";
+        document.getElementById("dev-menu").style.display = "block";
+        document.getElementById("dev-menu").style.transition ="3s"
+    }
+    function NoCat() {
+        document.getElementById("design-menu").style.display = "none";
+        document.getElementById("dev-menu").style.display = "none";
+    }
