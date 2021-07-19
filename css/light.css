@@ -624,7 +624,7 @@ nav .navbar-toggler .hidden{
   background: linear-gradient(165deg, #ffa500 19%, #ffa500 50%);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
-  border-bottom: 1px solid #4d2c86; 
+  border-bottom: 1px solid #ffa500; 
   box-shadow: none !important;
 }
 
@@ -666,11 +666,11 @@ form textarea{
   color: #ffffff ;
   border-radius: 15%;
   padding:7px ;
-  background: #4d2c86;
+  background: #ffa500;
 }
 
 .contact .scoial-media a i:hover{
-  background: #ffa500;
+  background: #4d2c86;
 }
 
 .contact .mail{
@@ -692,8 +692,8 @@ form textarea{
 } 
 
 .contact .submit {
-  background: #4d2c86;
   color: #fff;
+  background: #ffa500;
   border: none ;
   padding: 10px 20px !important;
   cursor: pointer;
@@ -704,7 +704,7 @@ form textarea{
 }
 
 .contact .submit:hover {
-  background: #ffa500;
+  background: #4d2c86;
 }
 
 /*End contact*/
