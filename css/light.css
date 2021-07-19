@@ -4,7 +4,7 @@ body{
   color: #122121;
 }
 ::-webkit-scrollbar {width: 6px; height: 5px; background: #66666600; }
-::-webkit-scrollbar-thumb { background-color: #4d2c86; -webkit-border-radius: 1ex; }
+::-webkit-scrollbar-thumb { background-color: #ffa500; -webkit-border-radius: 1ex; }
 
 /* Start Navbar */
 .navbar {
@@ -49,7 +49,7 @@ nav li a:hover:after{
 }
 
 nav .nav-mode .mode{
-  background: #ffa500;;
+  background: #ffa500;
   color: #ffffff;
   padding: 5px;
   margin-top: 8px;
@@ -103,11 +103,11 @@ nav .nav-mode .mode:hover{
 }
 
 input:checked + .slider-btn {
-  background-color: #ffa500 ;
+  background-color: #4d2c86;
 }
 
 input:focus + .slider-btn {
-  box-shadow: 0 0 1px #ffa500;
+  box-shadow: 0 0 1px #4d2c86;
 }
 
 input:checked + .slider-btn:before {
@@ -476,7 +476,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio .box .info .link a{
   color: #fff;
-  background: #ffa500;
+  background: #4d2c86;
   padding: 12px 12px;
   font-size: 17px;
   text-transform: none;
@@ -485,7 +485,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .box .info .link a:hover{
-  background: #4d2c86;
+  background: #ffa500;
   transition: .3s;
 }
 
@@ -510,7 +510,7 @@ nav .navbar-toggler .hidden{
   margin: 0 auto;
   width: 20px;
   height: 3px;
-  background: #ffa500;
+  background: #4d2c86;
 } 
 
 .portfolio .title p{
@@ -522,7 +522,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view{
-  background: #ffa500; 
+  background: #4d2c86; 
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 60px ;
@@ -534,7 +534,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view:hover{
-  background: #4d2c86;
+  background: #ffa500;
   transition: .5s;
 }
 /* end portfolio  */
@@ -572,7 +572,7 @@ nav .navbar-toggler .hidden{
 }
 
 .serv:before {
-  background-color : #4d2c86 ; 
+  background-color : #4d2c86; 
   content: '';
   position: absolute;
   bottom: 80px;
@@ -621,7 +621,7 @@ nav .navbar-toggler .hidden{
   border: none;
   font-size: 22px ;
   margin-top: 30px;
-  background: linear-gradient(165deg, #4d2c86 19%, #4d2c86 50%);
+  background: linear-gradient(165deg, #ffa500 19%, #ffa500 50%);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   border-bottom: 1px solid #4d2c86; 
@@ -629,7 +629,7 @@ nav .navbar-toggler .hidden{
 }
 
 form .form-control::placeholder{
-  background: linear-gradient(165deg, #4d2c86 19%, #4d2c86 50%);
+  background: linear-gradient(165deg, #ffa500 20%, #ffa500 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -666,11 +666,11 @@ form textarea{
   color: #ffffff ;
   border-radius: 15%;
   padding:7px ;
-  background: #ffa500;
+  background: #4d2c86;
 }
 
 .contact .scoial-media a i:hover{
-  background: #ffa500 ;
+  background: #ffa500;
 }
 
 .contact .mail{
@@ -687,12 +687,12 @@ form textarea{
 } 
 
 .contact .mail a:hover{
-  color: #391e66 ;
+  color: #ffa500 ;
   transition: .5s;
 } 
 
 .contact .submit {
-  background: #ffa500;
+  background: #4d2c86;
   color: #fff;
   border: none ;
   padding: 10px 20px !important;
@@ -704,7 +704,7 @@ form textarea{
 }
 
 .contact .submit:hover {
-  background: #4d2c86;
+  background: #ffa500;
 }
 
 /*End contact*/
@@ -734,7 +734,7 @@ footer p{
 }
 
 .up:hover{
-  background: #2e1855;
+  background: #e69500;
 }
 /* end button up */
 
@@ -751,7 +751,7 @@ footer p{
 }
 
 .scoial-media-menu .menu-item{
-  background: #4d2c86 ;
+  background: #4d2c86;
   /* transition: 1s; */
 }
 

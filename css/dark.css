@@ -59,7 +59,7 @@ nav .nav-mode .mode{
 }
 
 nav .nav-mode .mode:hover{
-  background: #4d2c86;
+  background: #ee9b00;
   cursor: pointer;
   transition: .1s ;
 }
@@ -209,7 +209,7 @@ nav .navbar-toggler .hidden{
 }
 
 .slider .info .cont:hover{
-  background: #4d2c86;
+  background: #ee9b00;
   color: #fff;
   transition: .3s;
 }
@@ -401,7 +401,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio  .btn-choice .active,
 .portfolio  .btn-choice li:hover{
-  background: #ffa500;
+  background: #ee9b00;
   color: #fff;
   transition: .5s;
 } 
@@ -486,7 +486,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .box .info .link a:hover{
-  background: #4d2c86;
+  background: #ee9b00;
   transition: .2s;
 }
 
@@ -535,7 +535,7 @@ nav .navbar-toggler .hidden{
 }
 
 .portfolio .view:hover{
-  background: #4d2c86;
+  background: #ee9b00;
   transition: .5s;
 }
 /* end portfolio  */
@@ -572,7 +572,7 @@ nav .navbar-toggler .hidden{
 }
 
 .serv:before {
-  background-color : #4d2c86 ; 
+  background-color : #ffa500 ; 
   content: '';
   position: absolute;
   bottom: 80px;
@@ -671,8 +671,8 @@ form textarea{
 }
 
 .contact .scoial-media a i:hover{
-  background: #4d2c86 ;
-  color: #fff;
+  background: #ee9b00 ;
+  /* color: #fff; */
   transition: .5s;
 }
 
@@ -690,7 +690,7 @@ form textarea{
 } 
 
 .contact .mail a:hover{
-  color: #4d2c86 ;
+  color: #ee9b00 ;
   transition: .5s;
 } 
 
@@ -707,7 +707,7 @@ form textarea{
 }
 
 .contact .submit:hover {
-  background: #4d2c86;
+  background: #ee9b00;
 }
 
 /*End contact*/
@@ -736,7 +736,7 @@ footer {
 }
 
 .up:hover{
-  background: #4d2c86;
+  background: #ee9b00;
 }
 /* end button up */
 
@@ -760,7 +760,7 @@ footer {
 .scoial-media-menu .menu-item:hover{
   transform: translateX(-95px);
   cursor: pointer;
-  background-color: #ffa500;
+  background-color: #ee9b00;
   transition: .8s;
 }
 
@@ -801,7 +801,7 @@ footer {
   margin: 0 auto;
   width: 80px;
   height: 3px;
-  background-color: #4d2c86 ;
+  background-color: #ffa500 ;
 }
 ul{
   list-style: none;
