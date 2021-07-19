@@ -383,6 +383,19 @@ nav .navbar-toggler .hidden{
   width: 2px;
   background: linear-gradient(165deg, rgba(255,166,46,1) 30%, rgba(234,77,44,1) 150%); 
 } */
+
+@media(max-width:767px){
+  .skills .title {
+    font-size: 35px;
+  }
+  .skil-box img{
+    width: 40%;
+  }
+  .skil-box .skill-name{
+    font-size: 12px;
+  }
+}
+
 /*End skills*/
 
 /* start portfolio  */
@@ -541,9 +554,9 @@ nav .navbar-toggler .hidden{
 
 /*Start services*/
 .services .serv {
-  margin:  30px 0;
+  margin:  20px 0px;
   cursor: pointer;
-  padding: 10px;
+  padding: 40px 10px;
   border-radius: 5px;
   text-transform: uppercase;
   overflow: hidden;
@@ -594,7 +607,7 @@ nav .navbar-toggler .hidden{
 }
 
 .services .serv i{
-  margin: 0 15px  ;
+  margin-right: 15px  ;
   font-size: 30px;
 }
 
@@ -605,11 +618,12 @@ nav .navbar-toggler .hidden{
 
 @media(max-width:991px){
   .services .serv i{
-    font-size: 20px;
+    margin-right: 8px  ;
+    font-size: 15px;
   }
   
   .services .serv  h3{
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 12px;
   }
 }
@@ -822,9 +836,6 @@ a{
 }
 
 @media(max-width:767px){
-  .skills .title {
-    font-size: 35px;
-  }
 
   .portfolio .menu .btn{
       font-size: 12px;
