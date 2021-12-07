@@ -340,7 +340,7 @@ nav .navbar-toggler .hidden{
 
 .skil-box:hover{
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.24);
-  background: linear-gradient(120deg, #1d1d1d 19%, #181818 50%);
+  background: linear-gradient(120deg, #1d1d1d 19%, #1f1f1f 50%);
   transition: all 1s;
 }
 
