@@ -473,7 +473,7 @@ nav .navbar-toggler .hidden{
 
 .portfolio .box:hover .info{
   transform: translateY(0); 
-  transition: 1s;
+  transition: 2s;
 }
 
 .portfolio .box  .info ul li {

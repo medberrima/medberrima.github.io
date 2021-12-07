@@ -1,526 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="hello there , I am Med Berrima , i work as a freelance in graphic design and web developement">
-    <meta name="keywords" content="HTML, CSS, JavaScript, bootstrap, jquery, angular, freelance, Freelancer, photoshop, designer, arabicdesigner, illustrator, logo, Businesscard, ui, ux">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Med Berrima - Portfolio" />
-    <meta property="og:description" content="hello there , I am Med Berrima , i work as a freelance in graphic design and web developement.">
-    <meta property="og:image" content="https://mir-s3-cdn-cf.behance.net/user/138/78a406491370295.607edc00aa805.png">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="200">
-    <meta property="og:image:height" content="200">
-    <title>Med Berrima - Portfolio</title>
-    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
-    <!-- font awesome -->
-    <link rel="stylesheet" href="css/all.min.css"/>
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <!-- venobox -->
-    <link rel="stylesheet" href="css/venobox.css"/>
-    <!-- style  -->
-    <link rel="stylesheet" href="css/dark.css" data-color="switch"/>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="hello there , I am Med Berrima , i work as a freelance in graphic design and web developement">
+  <meta name="keywords"
+    content="HTML, CSS, JavaScript, bootstrap, jquery, angular, freelance, Freelancer, photoshop, designer, arabicdesigner, illustrator, logo, Businesscard, ui, ux">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Med Berrima - Portfolio" />
+  <meta property="og:description"
+    content="hello there , I am Med Berrima , i work as a freelance in graphic design and web developement.">
+  <meta property="og:image" content="https://mir-s3-cdn-cf.behance.net/user/138/78a406491370295.607edc00aa805.png">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="200">
+  <title>Med Berrima - Portfolio</title>
+  <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- venobox -->
+  <link rel="stylesheet" href="css/venobox.css" />
+  <!-- style  -->
+  <link rel="stylesheet" href="css/dark.css" data-color="switch" />
 </head>
+
 <body>
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top ">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="images/logo.svg" alt="logo Med Berrima" >
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="one"></span>
-                <span class="two"></span>
-                <span class="three"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="main-nav">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="  nav-link" href="index.html" data-scroll="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#skills" data-scroll="skills">skills</a></li>
-                <li class="nav-item"><a class="active nav-link" href="index.html#portfolio" data-scroll="portfolio">portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#services" data-scroll="services">services</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#contact" data-scroll="contact">contact</a></li>
-                <li class="nav-mode"> <i class="mode fas fa-sun"></i> </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <!-- start portfolio -->
-    <section class="portfolio" id="portfolio" style="margin-top: 100px;">
-        <div class="container">
-            <div class="heading text-center">
-                <h2 class="mt-5">portfolio </h2>
-                <span></span>
-            </div>
-            <div class="text-center mb-5 menu">
-                <ul >
-                    <li class="btn " data-filter=".design">Graphic design</li>
-                    <li class="btn  active" data-filter="*">All work</li>
-                    <li class="btn " data-filter=".development">development</li>
-                </ul>
-            </div>
-            <div class="gallary text-uppercase">
-                <div class="row ">
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                            <div class="box">
-                                <img src="images/portfolio/pemi-thumbnail.png" alt="football academy design">
-                                <div class="info text-center">
-                                    <ul class="info-tag mt-3">
-                                        <li>Logo</li>
-                                        <li>branding</li>
-                                        <li>illustrator</li>
-                                        <li>photoshop</li>
-                                    </ul>  
-                                    <div class="link">
-                                        <a href="images/portfolio/pemi.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="https://www.behance.net/gallery/105715543/PEMI-Branding" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/pemi.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >PEMI - Branding </h3>
-                                <span class="text-center"></span>
-                                <p>Brand design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/almejhar-thumbnail.png" alt="football academy design">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Logo</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/almejhar.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="https://www.behance.net/gallery/113432919/logo-Almejhar-" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/almejhar.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >almejhar - logo </h3>
-                                <span class="text-center"></span>
-                                <p>Logo design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix development ">
-                        <div class="box">
-                            <img src="images/portfolio/med website thumbnail.png" alt="">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>HTML</li>
-                                    <li>css</li>
-                                    <li>bootstrap</li>
-                                    <li>javascript</li>
-                                    <li>jQuery</li>
-                                    <li>ui/ux design</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/med-website.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="https://github.com/medberrima/medberrima.github.io" target="_blank" > 
-                                        GitHub  <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/med-website.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >med berrima website</h3>
-                                <span class="text-center"></span>
-                                <p>Landing page </p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/tamdeed-thumbnail.png" alt="">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Logo</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/tamdeed.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://www.behance.net/gallery/113435731/Logo-Tamdeed-" target="_blank" > 
-                                        Behance  <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/tamdeed.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >Tamdeed - logo</h3>
-                                <span class="text-center"></span>
-                                <p>Logo Design </p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/elma5zen-store-thumbnail.png" alt="football academy design">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Logo</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/elma5zen-store.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="https://www.behance.net/gallery/106467483/Logo-Elma5zen-Store" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/elma5zen-store.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >elma5zen store - logo </h3>
-                                <span class="text-center"></span>
-                                <p>Logo design</p>
-                            </div> 
-                        </a>
-                    </div>    
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/WeDevelop-thumbnail.png" alt="football academy design">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>social media posts</li>
-                                    <li>photoshop</li>
-                                    <li> club </li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/WeDevelop.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/WeDevelop.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >WeDevelop club Design</h3>
-                                <span class="text-center"></span>
-                                <p>social media design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/thumbnail-academy-olympic.jpg" alt="football academy design">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>social media posts</li>
-                                    <li>football design</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/football-academy.jpg"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="https://www.behance.net/gallery/118205491/Social-media-Academy-Olympic" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/football-academy.jpg"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >Academy Olympic Design</h3>
-                                <span class="text-center"></span>
-                                <p>social media design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix development ">
-                        <div class="box">
-                            <img src="images/portfolio/rekcha.tn thumbnail.png" alt="">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Angular</li>
-                                    <li>TypeScript</li>
-                                    <li>HTML</li>
-                                    <li>css</li>
-                                    <li>bootstrap</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/rekcha.tn.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="https://github.com/medberrima/Rekcha.tn___Angular" target="_blank"> 
-                                        Github <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/rekcha.tn.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 > rekcha.tn</h3>
-                                <span class="text-center"></span>
-                                <p> website </p>
-                            </div> 
-                        </a>
-                    </div>               
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/Desert-Sun-for-Contracting-thumbnail.jpg" alt="football academy design">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Logo</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/Desert-Sun-for-Contracting.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a> 
-                                    <a href="" target="_blank" > 
-                                        Behance <i class="fas fa-chevron-circle-right"></i>
-                                    </a>                           
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/Desert-Sun-for-Contracting.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >Desert Sun for Contracting </h3>
-                                <span class="text-center"></span>
-                                <p>Logo design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix development ">
-                        <div class="box">
-                            <img src="images/portfolio/lets travel together thumbnail.PNG" alt="let's travel together">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>HTML</li>
-                                    <li>css</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/lets-travel-together.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="https://github.com/medberrima/LET-S-TRAVEL-TOGETHER" target="_blank" > 
-                                        GitHub  <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/lets-travel-together.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 >let's travel together</h3>
-                                <span class="text-center"></span>
-                                <p>Landing page</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/pak-thumbnail.png" alt="">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>Logo</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/paki.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="" target="_blank"> 
-                                        Github <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/pak-thumbnail.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 > paki - logo</h3>
-                                <span class="text-center"></span>
-                                <p> Logo design </p>
-                            </div> 
-                        </a>
-                    </div> 
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/logofolio-football-thumbnail.png" alt="logofolio-football">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>logo</li>
-                                    <li>football design</li>
-                                    <li>illustrator</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/logofolio-football-thumbnail.png"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="https://www.behance.net/gallery/100918063/logofolio-football-thumbnail" target="_blank" > 
-                                        Behance  <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/logofolio-football-thumbnail.png"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 > football Logos </h3>
-                                <span class="text-center"></span>
-                                <p>Logo design</p>
-                            </div> 
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  mix design logo ">
-                        <div class="box">
-                            <img src="images/portfolio/taraji designs thumbnail.jpg" alt="">
-                            <div class="info text-center">
-                                <ul class="info-tag mt-3">
-                                    <li>social media</li>
-                                    <li>posts</li>
-                                    <li>football design</li>
-                                    <li>photoshop</li>
-                                </ul>  
-                                <div class="link">
-                                    <a href="images/portfolio/taraji designs.jpeg"  class="venobox " data-gall="venue-gallary"> 
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a  href="https://www.behance.net/gallery/100918063/Football-Social-posters" target="_blank" > 
-                                        Behance  <i class="fas fa-chevron-circle-right"></i>
-                                    </a> 
-                                </div>
-                            </div>
-                        </div>
-                        <a href="images/portfolio/taraji designs.jpeg"  class="venobox " data-gall="venue-gallary">
-                            <div class="title text-center">
-                                <h3 > Taraji design </h3>
-                                <span class="text-center"></span>
-                                <p>social media design</p>
-                            </div> 
-                        </a>
-                    </div>
-                </div> 
-                <!-- <div class="text-center mt-5">
-                    <a href="portfolio.html" class="view text-center" >view more  <i class=" ml-2 fas fa-angle-right"></i></a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!-- end portfolio -->
-
-    <!--Start contact-->
-    <section class="contact mt-7" id="contact">
-        <div class="container">
-            <div class="heading">
-                <h2>contact us</h2>
-                <span></span>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-6">
-                    <form action="https://getform.io/f/92ee9481-3af0-4e54-b052-5e50310dd7dd" method="POST">
-                        <div class="form-group">
-                            <input class="form-control" type="text"  name="name"  placeholder="Your Name" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" name="email" placeholder="Your Mail" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="subject" placeholder="Subject" required/>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder=" Your Message" required></textarea>
-                        </div>
-                        <div class="text-center mt-5 ">
-                            <button type="submit"  class="submit  p-2" >Send Your Message</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 mt-5 text-center ">
-                    <div class="logo ">
-                        <img src="images/logo.svg" alt="logo med">
-                    </div>
-                    <h1 > Mohamed Berrima</h1>
-                    <p class="service"><span>Graphic</span> Designer - <span>Web</span> Developer </p>
-                    <div class="scoial-media">
-                        <p class="mt-4 mb-2 h6">follow us on :</p>
-                        <a href="https://www.behance.net/medberrima" target="_blank"><i class="fab fa-behance"></i></a> 
-                        <a href="https://www.linkedin.com/in/medberrima/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
-                        <a href="https://www.instagram.com/med.dsgnr/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://github.com/medberrima" target="_blank"><i class="fab fa-github"></i></a> 
-                    </div>
-                        <p class="mt-4 mb-0 h6">Contact us on : </p>
-                        <div class="mail">
-                            <a href="mailto:medberrima0@gmail.com"><i class="fas fa-envelope"></i> medberrima0@gmail.com</a>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End contact-->
-
-    <!--Start footer-->
-    <footer class="text-center mt-5 mb-2">
-        <div class="container">
-            <p>Copyright &copy; Med Berrima 2021 </p>
-        </div>
-    </footer>
-    <!--End footer-->
-    
-    <!-- social media -->
-    <div class="scoial-media-menu">
-        <div class="menu-item">
-            <a href="https://www.behance.net/medberrima" target="_blank"><i class="fab fa-behance"></i>
-            <div class="text-item">Behance</div></a> 
-        </div>
-        <div class="menu-item">
-            <a href="https://www.linkedin.com/in/medberrima/" target="_blank"><i class="fab fa-linkedin-in"></i> 
-            <div class="text-item">Linkedin</div></a>
-        </div>
-        <div class="menu-item">
-            <a href="https://www.instagram.com/med.dsgnr/" target="_blank"><i class="fab fa-instagram"></i>
-            <div class="text-item">Instagram</div></a>
-        </div>
-        <div class="menu-item">
-            <a href="https://github.com/medberrima" target="_blank"><i class="fab fa-github"></i>
-            <div class="text-item">Github</div></a>
-        </div>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top ">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="images/logo.svg" alt="logo Med Berrima">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="main-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="  nav-link" href="index.html" data-scroll="home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#skills" data-scroll="skills">skills</a></li>
+          <li class="nav-item"><a class="active nav-link" href="index.html#portfolio"
+              data-scroll="portfolio">portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services" data-scroll="services">services</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact" data-scroll="contact">contact</a></li>
+          <li class="nav-mode"> <i class="mode fas fa-sun"></i> </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- End Navbar -->
 
-    <!--Button up-->
-    <button class="up"><i class="fas fa-chevron-up"></i></button>
+  <!-- start portfolio -->
+  <section class="portfolio" id="portfolio" style="margin-top: 100px;">
+    <div class="container">
+      <div class="heading text-center">
+        <h2 class="mt-5">portfolio </h2>
+        <span></span>
+      </div>
+      <div class="text-center mb-5 menu">
+        <ul class="btn-choice">
+          <li class="btn active" data-filter="*">all </li>
+          <li class="btn " data-filter=".development" ">development</li>
+              <li class=" btn " data-filter=" .logo">Logos & Branding</li>
+          <li class="btn " data-filter=".social-media">social media designs</li>
+        </ul>
+      </div>
+      <div class="gallary text-uppercase">
+        <div class="row ">
+          <div class="col-lg-4 col-md-6  mix development web-application">
+            <div class="box">
+              <img src="images/portfolio/video-conferance.png" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Express Js</li>
+                  <li>WEBRTC</li>
+                  <li>Peer js</li>
+                  <li>SOCKET.IO</li>
+                  <li>EJS</li>
+                  <li>css</li>
+                </ul>
+                <div class="link">
+                  <a href="https://video-conferencing-med.herokuapp.com/" target="_blank">
+                    <i class="far fa-eye"></i> Demo
+                  </a>
+                  <!-- <a  href="https://github.com/medberrima/Rekcha.tn___Angular" target="_blank"> 
+                                Github <i class="fas fa-chevron-circle-right"></i>
+                            </a>  -->
+                </div>
+              </div>
+            </div>
+            <a href="https://video-conferencing-med.herokuapp.com/" target="_blank">
+              <div class="title text-center">
+                <h3> Video Conferancing App </h3>
+                <span class="text-center"></span>
+                <p> Web Application </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design  logo">
+            <div class="box">
+              <img src="images/portfolio/med-brand-thumbnail.jpg" alt="prmi">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>branding</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/med-brand.jpg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/105715543/PEMI-Branding" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/med-brand.jpg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>Med berrima - Branding </h3>
+                <span class="text-center"></span>
+                <p>Brand design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development web-application">
+            <div class="box">
+              <img src="images/portfolio/Dreambook-thumbnail.png" alt="">
+              <div class="info text-center" id="info">
+                <ul class="info-tag mt-3">
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/Dreambook-thumbnail.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i> View
+                  </a>
+                  <!-- <a  href="https://github.com/medberrima/Rekcha.tn___Angular" target="_blank"> 
+                                Github <i class="fas fa-chevron-circle-right"></i>
+                            </a>  -->
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/Dreambook-thumbnail.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> DreamBook App</h3>
+                <span class="text-center"></span>
+                <p> I created the frontend of this app, It is going to be integrated with Cordova platform.</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development web-application">
+            <div class="box">
+              <img src="images/portfolio/mededu-thumbnail.png" alt="">
+              <div class="info text-center" id="info">
+                <ul class="info-tag mt-3">
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/medEdu.jpeg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a  href="https://github.com/medberrima/School_Website" target="_blank"> 
+                    Github <i class="fas fa-chevron-circle-right"></i>
+                  </a> 
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/medEdu.jpeg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> MEDEdu School - Website</h3>
+                <span class="text-center"></span>
+                <p> FrontEnd website </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development web-application">
+            <div class="box">
+              <img src="images/portfolio/maktebty-thumbnail.jpg" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Symfony</li>
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>bootstrap</li>
+                  <li>e-commerce</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/maktebty.jpg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://github.com/medberrima/Rekcha.tn___Angular" target="_blank">
+                    Github <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/maktebty.jpg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> maktebty - website</h3>
+                <span class="text-center"></span>
+                <p> e-commerce </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design  logo">
+            <div class="box">
+              <img src="images/portfolio/pemi-thumbnail.png" alt="prmi">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>branding</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/pemi.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/105715543/PEMI-Branding" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/pemi.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>PEMI - Branding </h3>
+                <span class="text-center"></span>
+                <p>Brand design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/almejhar-thumbnail.png" alt="football academy design">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/almejhar.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/113432919/logo-Almejhar-" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/almejhar.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>almejhar - logo </h3>
+                <span class="text-center"></span>
+                <p>Logo design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development landing-page">
+            <div class="box">
+              <img src="images/portfolio/med website thumbnail.png" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>bootstrap</li>
+                  <li>javascript</li>
+                  <li>jQuery</li>
+                  <li>ui/ux design</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/med-website.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://github.com/medberrima/medberrima.github.io" target="_blank">
+                    GitHub <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/med-website.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>med berrima website</h3>
+                <span class="text-center"></span>
+                <p>Landing page </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/tamdeed-thumbnail.png" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/tamdeed.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/113435731/Logo-Tamdeed-" target="_blank">
+                    <i class="fab fa-behance"></i> behance
+                    <!-- <i class="fas fa-chevron-circle-right"></i> -->
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/tamdeed.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>Tamdeed - logo</h3>
+                <span class="text-center"></span>
+                <p>Logo Design </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/elma5zen-store-thumbnail.png" alt="football academy design">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/elma5zen-store.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/106467483/Logo-Elma5zen-Store" target="_blank">
+                    <i class="fab fa-behance"></i> behance </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/elma5zen-store.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>elma5zen store - logo </h3>
+                <span class="text-center"></span>
+                <p>Logo design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design social-media ">
+            <div class="box">
+              <img src="images/portfolio/WeDevelop-thumbnail.png" alt="football academy design">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>social media posts</li>
+                  <li>photoshop</li>
+                  <li> club </li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/WeDevelop.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/WeDevelop.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>WeDevelop club Design</h3>
+                <span class="text-center"></span>
+                <p>social media design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design social-media ">
+            <div class="box">
+              <img src="images/portfolio/thumbnail-academy-olympic.jpg" alt="football academy design">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>social media posts</li>
+                  <li>football design</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/football-academy.jpg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/118205491/Social-media-Academy-Olympic" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/football-academy.jpg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>Academy Olympic Design</h3>
+                <span class="text-center"></span>
+                <p>social media design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development web-application">
+            <div class="box">
+              <img src="images/portfolio/rekcha.tn thumbnail.png" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Angular</li>
+                  <li>TypeScript</li>
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>bootstrap</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/rekcha.tn.jpeg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://github.com/medberrima/Rekcha.tn___Angular" target="_blank">
+                    Github <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/rekcha.tn.jpeg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> rekcha.tn</h3>
+                <span class="text-center"></span>
+                <p> A web application for movies management </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/Desert-Sun-for-Contracting-thumbnail.jpg" alt="football academy design">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>Logo</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/Desert-Sun-for-Contracting.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/Desert-Sun-for-Contracting.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>Desert Sun for Contracting </h3>
+                <span class="text-center"></span>
+                <p>Logo design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix development landing-page">
+            <div class="box">
+              <img src="images/portfolio/lets travel together thumbnail.PNG" alt="let's travel together">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>HTML</li>
+                  <li>css</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/lets-travel-together.png" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://github.com/medberrima/LET-S-TRAVEL-TOGETHER" target="_blank">
+                    GitHub <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/lets-travel-together.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3>let's travel together</h3>
+                <span class="text-center"></span>
+                <p>Landing page</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/logofolio-football-thumbnail.png" alt="logofolio-football">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>logo</li>
+                  <li>football design</li>
+                  <li>illustrator</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/logofolio-football-thumbnail.png" class="venobox "
+                    data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/100918063/logofolio-football-thumbnail" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/logofolio-football-thumbnail.png" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> football Logos </h3>
+                <span class="text-center"></span>
+                <p>Logo design</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6  mix design logo ">
+            <div class="box">
+              <img src="images/portfolio/taraji designs thumbnail.jpg" alt="">
+              <div class="info text-center">
+                <ul class="info-tag mt-3">
+                  <li>social media</li>
+                  <li>posts</li>
+                  <li>football design</li>
+                  <li>photoshop</li>
+                </ul>
+                <div class="link">
+                  <a href="images/portfolio/taraji designs.jpeg" class="venobox " data-gall="venue-gallary">
+                    <i class="far fa-eye"></i>
+                  </a>
+                  <a href="https://www.behance.net/gallery/100918063/Football-Social-posters" target="_blank">
+                    Behance <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="images/portfolio/taraji designs.jpeg" class="venobox " data-gall="venue-gallary">
+              <div class="title text-center">
+                <h3> Taraji design </h3>
+                <span class="text-center"></span>
+                <p>social media design</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="text-center mt-5">
+                <a href="portfolio.html" class="view text-center" >view more  <i class=" ml-2 fas fa-angle-right"></i></a>
+            </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- end portfolio -->
 
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/venobox.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> -->
+  <!--Start contact-->
+  <section class="contact mt-7" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h2>contact us</h2>
+        <span></span>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <form action="https://getform.io/f/92ee9481-3af0-4e54-b052-5e50310dd7dd" method="POST">
+            <div class="form-group">
+              <input class="form-control" type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="email" name="email" placeholder="Your Mail" required />
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" placeholder=" Your Message" required></textarea>
+            </div>
+            <div class="text-center mt-5 ">
+              <button type="submit" class="submit  p-2">Send Your Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 mt-5 text-center ">
+          <div class="logo ">
+            <img src="images/logo.svg" alt="logo med">
+          </div>
+          <h1> Mohamed Berrima</h1>
+          <p class="service"><span>Graphic</span> Designer - <span>Web</span> Developer </p>
+          <div class="scoial-media">
+            <p class="mt-4 mb-2 h6">follow us on :</p>
+            <a href="https://www.behance.net/medberrima" target="_blank"><i class="fab fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/medberrima/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/med.dsgnr/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/medberrima" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <p class="mt-4 mb-0 h6">Contact us on : </p>
+          <div class="mail">
+            <a href="mailto:medberrima0@gmail.com"><i class="fas fa-envelope"></i> medberrima0@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End contact-->
+
+  <!--Start footer-->
+  <footer class="text-center mt-5 mb-2">
+    <div class="container">
+      <p>Copyright &copy; Med Berrima 2021 </p>
+    </div>
+  </footer>
+  <!--End footer-->
+
+  <!-- social media -->
+  <div class="scoial-media-menu">
+    <div class="menu-item">
+      <a href="https://www.behance.net/medberrima" target="_blank"><i class="fab fa-behance"></i>
+        <div class="text-item">Behance</div>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="https://www.linkedin.com/in/medberrima/" target="_blank"><i class="fab fa-linkedin-in"></i>
+        <div class="text-item">Linkedin</div>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="https://www.instagram.com/med.dsgnr/" target="_blank"><i class="fab fa-instagram"></i>
+        <div class="text-item">Instagram</div>
+      </a>
+    </div>
+    <div class="menu-item">
+      <a href="https://github.com/medberrima" target="_blank"><i class="fab fa-github"></i>
+        <div class="text-item">Github</div>
+      </a>
+    </div>
+  </div>
+
+  <!--Button up-->
+  <button class="up"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> -->
 </body>
+
 </html>
