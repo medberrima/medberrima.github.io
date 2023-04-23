@@ -315,7 +315,33 @@ nav .navbar-toggler .hidden{
   font-size: 30px;
   font-weight: 400;
   color: #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.skills .title::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background-color: #ee9b00;
+}
+.skills .title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ee9b00;
+  box-shadow: 0 0 0 3px #fff;
+
 }
 
 .skil-box{
@@ -326,8 +352,8 @@ nav .navbar-toggler .hidden{
   padding: 10%;
   text-align: center;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-  height: 75%;
-  margin-bottom: 30px;
+  height: 150px;
+  margin-bottom: 45px;
   cursor: pointer;
   border-radius: 5%;
 }
@@ -358,8 +384,9 @@ nav .navbar-toggler .hidden{
   transform: translate(-50%, 0);
   font-size: 15px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
+  width: 100%;
 }
 
 /*
@@ -389,6 +416,7 @@ nav .navbar-toggler .hidden{
   .skills .title {
     font-size: 35px;
   }
+
   .skil-box img{
     width: 40%;
   }
@@ -623,6 +651,7 @@ nav .navbar-toggler .hidden{
     margin-right: 8px  ;
     font-size: 15px;
   }
+
   
   .services .serv  h3{
     font-size: 10px;
@@ -830,6 +859,10 @@ a{
 
 /* media query */
 @media(max-width:991px){
+
+  .skil-box{
+    height: 100px;
+  }
   .contact h1{
       font-size: 25px;
       margin-bottom: 5px;

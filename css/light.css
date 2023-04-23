@@ -311,12 +311,38 @@ nav .navbar-toggler .hidden{
 /* End Slider */
 
 /*Start skills*/
-/* .skills .title {
+.skills .title {
   font-size: 30px;
   font-weight: 400;
-  color: #391e66;
-  margin-bottom: 20px;
-} */
+  color: #272727;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.skills .title::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background-color: #391e66;
+}
+.skills .title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #391e66;
+  box-shadow: 0 0 0 3px #ee9b00;
+
+}
 
 .skil-box{
   background-color: #ffffff;
@@ -326,11 +352,12 @@ nav .navbar-toggler .hidden{
   padding: 10%;
   text-align: center;
   box-shadow: 0 8px 12px 0 rgba(180, 180, 180, 0.082), 0 6px 20px 0 rgba(148, 148, 148, 0.15);
-  height: 75%;
-  margin-bottom: 30px;
+  height: 150px;
+  margin-bottom: 45px;
   cursor: pointer;
   border-radius: 5%;
 }
+
 
 .skil-box:after {
   content: "";
@@ -358,8 +385,9 @@ nav .navbar-toggler .hidden{
   transform: translate(-50%, 0);
   font-size: 15px;
   color: #391e66;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
+  width: 100%;
 }
 
 /*
@@ -825,6 +853,9 @@ a{
 
 /* media query */
 @media(max-width:991px){
+  .skil-box{
+    height: 100px;
+  }
   .contact h1{
       font-size: 25px;
       margin-bottom: 5px;
