@@ -496,6 +496,11 @@ nav .navbar-toggler .hidden{
   color: #fff;
 }
 
+.portfolio .project {
+  height: 410px ;
+  margin: 20px 0;
+}
+
 .portfolio .box:hover .info{
   transform: translateY(0); 
   transition: 1s;
@@ -537,6 +542,8 @@ nav .navbar-toggler .hidden{
 
 .portfolio .title {
   background-color: #a1a1a1;
+  padding:  10px;
+  height: 160px;
 }
 
 .portfolio .title h3{
@@ -558,8 +565,10 @@ nav .navbar-toggler .hidden{
   font-size:12px;
   padding-top: 0px auto;
   font-weight: 500;
+  margin-top: 5px;
   padding-bottom: 10px;
   color: rgb(255, 255, 255);
+  text-transform: capitalize;
 }
 
 .portfolio .view{
